@@ -17,7 +17,7 @@ const LIGHT_THEME_PARTICLES = {
     random: true,
     anim: {
       enable: true,
-      speed: 3,
+      speed: 2,
       opacity_min: 0.1,
       sync: false,
     },
@@ -27,7 +27,7 @@ const LIGHT_THEME_PARTICLES = {
     random: true,
     anim: {
       enable: true,
-      speed: 9,
+      speed: 5,
       size_min: 3,
       sync: false,
     },
@@ -36,12 +36,12 @@ const LIGHT_THEME_PARTICLES = {
     enable: true,
     color: '#39d353',
     distance: 50,
-    width: 1,
+    width: 3,
     consent: false,
   },
   move: {
     enable: true,
-    speed: 3,
+    speed: 2,
     direction: 'none',
     random: false,
     straight: false,
