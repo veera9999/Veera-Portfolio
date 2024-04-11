@@ -1,44 +1,44 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-
-import bayesnet from "../../assets/Projects/bayesnet.jpg";
-import quantum from "../../assets/Projects/quantum.png";
-import diffusers from "../../assets/Projects/diffusers.jpg"
-import portfolio from "../../assets/Projects/portfolio.png";
-import pandasai from "../../assets/Projects/pandas-ai.png";
-
-import { useTranslation } from "react-i18next";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particle';
+import SyncVibe from '../../assets/Projects/SyncVibe.png';
+import Netflix from '../../assets/Projects/Netflix.jpeg';
+import portfolio from '../../assets/Projects/portfolio.png';
+import pandasai from '../../assets/Projects/pandas-ai.png';
+import Skywest from '../../assets/Projects/Skywest.jpg';
+import diffusers from '../../assets/Projects/diffusers.jpg';
+import descriptions from '../description';
 
 function Projects() {
-  const { t } = useTranslation();
-  
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          {t('ProjHeader')} <strong className="green">{t('Works')} </strong>
+          {descriptions.ProjHeader}{' '}
+          <strong className="green">{descriptions.Works} </strong>
         </h1>
-        <p className="text">{t('ProjSubtitle')}</p>
+        <p className="text">{descriptions.ProjSubtitle}</p>
 
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+        <Row
+          style={{ justifyContent: 'center', paddingBottom: '10px' }}
+        >
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={diffusers}
-              title="Diffusers-rs"
-              description={t('Proj1')}
+              imgPath={SyncVibe}
+              title="SyncVibe"
+              description={descriptions.Proj1}
               link="https://github.com/LaurentMazare/diffusers-rs"
             />
           </Col>
-          
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bayesnet}
+              imgPath={Netflix}
               isBlog={false}
-              title="Baylib"
-              description={t('Proj2')}
+              title="Netflix Data Analysis"
+              description={descriptions.Proj2}
               link="https://github.com/mspronesti/baylib"
             />
           </Col>
@@ -48,17 +48,17 @@ function Projects() {
               imgPath={pandasai}
               isBlog={false}
               title="Pandas AI"
-              description={t('Proj5')}
+              description={descriptions.Proj5}
               link="https://github.com/gventuri/pandas-ai"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quantum}
+              imgPath={Skywest}
               isBlog={false}
-              title="Qlearnkit"
-              description={t('Proj3')}
+              title="Skywest Airlines Performance Analysis"
+              description={descriptions.Proj3}
               link="https://github.com/mspronesti/qlearnkit"
             />
           </Col>
@@ -67,11 +67,20 @@ function Projects() {
             <ProjectCard
               imgPath={portfolio}
               isBlog={false}
-              title={t('ThisWebsite')}
-              description={t('Proj4')}
+              title={descriptions.ThisWebsite}
+              description={descriptions.Proj4}
               link="https://github.com/mspronesti/mspronesti.github.io"
             />
-          </Col>         
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={diffusers}
+              title="Diffusers-rs"
+              description={descriptions.Proj1}
+              link="https://github.com/LaurentMazare/diffusers-rs"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
