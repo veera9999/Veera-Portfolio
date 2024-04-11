@@ -1,17 +1,16 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import { useTranslation } from "react-i18next";
 
 function Type() {
-  const { t } = useTranslation();
 
   return (
     <Typewriter
       options={{
         strings: [
-          t('Typer1'),
-          t('Typer2'),
-          t('Typer3')
+          'Full Stack Developer',
+          'Data Analyst / Data Scientist',
+          'Machine Learning Enthusiast', 
+          'Open-Source Contributor',
         ],
         autoStart: true,
         loop: true,
