@@ -81,6 +81,17 @@ function NavBar() {
               {description.Experience}
             </Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="/contact"
+              onClick={() => updateExpanded(false)}
+            >
+              <MdWorkHistory style={{ marginBottom: '3px' }} />{' '}
+              {description.Contact}
+            </Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
 

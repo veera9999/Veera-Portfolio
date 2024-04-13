@@ -1,6 +1,7 @@
 const description = {
   Projects: 'Projects',
   Experience: 'Experience',
+  Contact: 'Contact',
   Home: 'Home',
   About: 'About',
   Greeting: 'Hi There!',
