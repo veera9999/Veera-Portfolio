@@ -13,7 +13,7 @@ import {
 } from 'react-icons/ai';
 import { MdWorkHistory } from 'react-icons/md';
 import { MdLanguage } from 'react-icons/md';
-
+import { IoMdContact } from 'react-icons/io';
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
 
@@ -88,7 +88,7 @@ function NavBar() {
               to="/contact"
               onClick={() => updateExpanded(false)}
             >
-              <MdWorkHistory style={{ marginBottom: '3px' }} />{' '}
+              <IoMdContact style={{ marginBottom: '3px' }} />{' '}
               {description.Contact}
             </Nav.Link>
           </Nav.Item>
