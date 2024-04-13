@@ -7,9 +7,7 @@ function Experience() {
     <Container fluid className="project-section">
       <Particle />
       <Row>
-        <div style={{ padding: 50, textAlign: 'center' }}>
-          <Type />
-        </div>
+        <div style={{ padding: 50 }}></div>
       </Row>
     </Container>
   );
