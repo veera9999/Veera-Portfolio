@@ -4,6 +4,7 @@ import Particle from '../Particle';
 import sedin from '../../assets/sedin.svg';
 import Lendingkart from '../../assets/lendingkart.svg';
 import Type from './Type';
+import { FaHandPointRight } from 'react-icons/fa';
 import ExperienceCard from './ExperienceCard';
 import descriptions from '../description';
 function Experience() {
