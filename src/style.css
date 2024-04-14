@@ -515,7 +515,7 @@ button:focus {
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.02) translateY(-20px) !important;
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }
@@ -585,7 +585,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 60px !important;
   padding-bottom: 30px !important;
   color: var(--text-color) !important;
 }
@@ -614,8 +614,8 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -647,38 +647,7 @@ button:focus {
   line-height: 1.6 !important;
 }
 
-/*
-.tech-icons {
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid var(--green-1) !important;
-  box-shadow: 4px 5px 4px 3px rgba(21, 158, 69, 0.137); 
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
-}
 
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
-
-.tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid var(--green-3) !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
-}
-*/
 .quote-card-view {
   border: none !important;
   color: var(--text-color) !important;
@@ -831,34 +800,9 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 50px;
 }
 
-.ExperienceCardWrapper {
-  color: var(--text-color) !important;
-  background-color: transparent;
-  border: 2px solid var(--green-2) !important;
-  border-radius: 8px;
-  padding: 5px;
-  transition: transform 0.3s ease-in-out 0s;
-  }
-
-  .ExperienceCardWrapper .main-experience:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.5px solid var(--green-3) !important;
-  }
-
-  .ExperienceCardWrapper pre {
-    margin: 0px;
-    font-size: large;
-    font-family: inherit;
-    text-align: left;
-    white-space: pre-wrap;
-    word-break: break-word;
-    padding-top: 20px;
-    padding-left: 50px;
-  }
- 
 .experience-location{
   color: var(--green-2)  !important;
 }
@@ -882,6 +826,11 @@ button:focus {
   background: var(--green-3);
 }
 
-.vertical-timeline-element--work .experience-card:hover {
-  transform: translateY(-10px) scale(1.05);
+.vertical-timeline-element {
+  transition: all 0.3s ease-in-out;
+}
+
+.vertical-timeline-element:hover {
+  transform: scale(1.05) translateY(-10px);
+  transition: all 0.3s ease-in-out;
 }

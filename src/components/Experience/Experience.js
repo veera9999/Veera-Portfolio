@@ -28,6 +28,7 @@ function Experience() {
               border: '2px solid #26a641',
               borderRadius: '8px',
               padding: '2rem',
+              paddingTop: '4em',
             }}
             contentArrowStyle={{ borderRight: '7px solid #00b894' }}
             date="September 2021 – July 2022"
