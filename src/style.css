@@ -806,7 +806,7 @@ button:focus {
   color: var(--green-2)  !important;
 }
 .main-experience{
-  box-shadow: 0px 10px 10px 0px #00440f !important;
+  box-shadow: 0px 10px 10px 0px #848584 !important;
   padding-bottom: 10px;
   padding-top: 20px;
   background-color: var(--experience-main);
