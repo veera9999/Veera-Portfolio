@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import BtnToggleTheme from './BtnTottleTheme';
-import { Col, Dropdown, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import description from './description';
 import logo from '../assets/veeralogo.png';
 import {

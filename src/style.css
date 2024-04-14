@@ -774,3 +774,33 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+
+.ExperienceCardWrapper {
+  color: var(--text-color) !important;
+  background-color: transparent;
+  border: 2px solid var(--green-2) !important;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out 0s;
+  }
+
+  .ExperienceCardWrapper:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.5px solid var(--green-3) !important;
+  }
+
+  .ExperienceCardWrapper pre {
+    margin: 0px;
+    font-size: large;
+    font-family: inherit;
+    text-align: left;
+    white-space: pre-wrap;
+    word-break: break-word;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+ 
+.experience-location{
+  color: var(--green-2)  !important;
+}
