@@ -1,4 +1,146 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import Particle from '../Particle';
+import descriptions from '../description';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import styled from 'styled-components';
+
+const StyledVerticalTimelineElement = styled(VerticalTimelineElement)`
+  max-width: 100%;
+  padding: 2rem;
+  border: 2px solid #00b894;
+  border-radius: 8px;
+
+  .vertical-timeline-element-content {
+    box-shadow: none;
+  }
+
+  .vertical-timeline-element-content-arrow {
+    border-right: 7px solid #00b894;
+  }
+`;
+
+const ExperienceDescription = styled.pre`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+`;
+
+function Experience() {
+  return (
+    <Container fluid className="experience-section">
+      <Particle />
+      <Container>
+        <h1 className="experience-heading">
+          {descriptions.ProjHeader}{' '}
+          <strong className="green">{descriptions.Experience}</strong>
+        </h1>
+        <VerticalTimeline>
+          <StyledVerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: 'rgba(255, 255, 255, 0.1)',
+              color: '#fff',
+            }}
+            date="August 2020 – June 2021"
+            iconStyle={{
+              background: '#00b894',
+              color: '#fff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={<span>DA</span>}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Data Analyst/ Data Scientist Intern
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Lending kart Finance Private Limited, Bangalore, India
+            </h4>
+            <ExperienceDescription>
+              • Leveraged AWS Athena, Redshift and Excel (macros and
+              query functions) to analyze large datasets (100K+
+              records), providing strategic insights.
+              <br />
+              • Generated regular analysis reports for facilitating
+              key business decisions while working in collections
+              team.
+              <br />
+              • Performed data preprocessing and cleaning with Python
+              and R, enhancing data quality by 25%.
+              <br />
+              • Built Tableau dashboards for visualization & KPI
+              metrics evaluation, leading to 20% increase in debt
+              recovery.
+              <br />• Collaborated with teams to develop and refine
+              machine learning models with Python in AWS Sage Maker to
+              predict customer bounce rates and loan defaults,
+              increasing prediction accuracy from 74% to 85%.
+            </ExperienceDescription>
+          </StyledVerticalTimelineElement>
+          <StyledVerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{
+              background: 'rgba(255, 255, 255, 0.1)',
+              color: '#fff',
+            }}
+            date="September 2021 – July 2022"
+            iconStyle={{
+              background: '#00b894',
+              color: '#fff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={<span>SE</span>}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Software Engineer Intern
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Sein Technologies, Chennai, India
+            </h4>
+            <ExperienceDescription>
+              • Developed applications with Core Java, Maven, Spring
+              MVC, implementing multi-threading and RESTful APIs.
+              <br />
+              • Tested applications for end-to-end test cases with
+              JUnit and Swagger and resolved over 100 bugs.
+              <br />
+              • Elevated application security by implementing user
+              authentication using Spring Security & JWT, resulting in
+              2X security.
+              <br />
+              • Implemented mapping of relational databases to Java
+              objects with Ibatis and Hibernate.
+              <br />
+              • Leveraged AWS EC2, S3, API Gateway and RDS for
+              scalable application deployment, reducing deployment
+              time by 40%.
+              <br />• Streamlined CI/CD process using AWS Code
+              Pipeline and Git Desktop, enabling faster time-to-market
+              for new features.
+            </ExperienceDescription>
+          </StyledVerticalTimelineElement>
+        </VerticalTimeline>
+      </Container>
+    </Container>
+  );
+}
+
+/*import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Particle from '../Particle';
 import sedin from '../../assets/sedin.svg';
@@ -13,16 +155,6 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import styled from 'styled-components';
-
-const ExperienceDescription = styled.pre`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  white-space: pre-wrap;
-  word-break: break-word;
-  margin: 0;
-`;
 
 function Experience() {
   return (
@@ -52,7 +184,7 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Sein Technologies, Chennai, India
             </h4>
-            <ExperienceDescription>
+            <div className="ExperienceDescription">
               • Developed applications with Core Java, Maven, Spring
               MVC, implementing multi-threading and RESTful APIs.
               <br />
@@ -72,13 +204,17 @@ function Experience() {
               <br />• Streamlined CI/CD process using AWS Code
               Pipeline and Git Desktop, enabling faster time-to-market
               for new features.
-            </ExperienceDescription>
+            </div>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
-              background: 'rgba(255, 255, 255, 0.1)',
-              color: '#fff',
+              color: '#ffffff !important',
+              backgroundColor: 'transparent',
+              border: '2px solid black !important',
+              borderRadius: '8px',
+              padding: '5px',
+              transition: 'transform 0.3s ease-in-out 0s',
             }}
             contentArrowStyle={{
               borderRight: '7px solid  rgba(255, 255, 255, 0.1)',
@@ -86,13 +222,15 @@ function Experience() {
             date="August 2020 – June 2021"
             iconStyle={{ background: '#00b894', color: '#fff' }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Data Analyst/ Data Scientist Intern
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Lending kart Finance Private Limited, Bangalore, India
-            </h4>
-            <ExperienceDescription>
+            <div className="main-experience">
+              <h3 className="vertical-timeline-element-title">
+                Data Analyst/ Data Scientist Intern
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Lending kart Finance Private Limited, Bangalore, India
+              </h4>
+            </div>
+            <div className="ExperienceDescription">
               • Leveraged AWS Athena, Redshift and Excel (macros and
               query functions) to analyze large datasets (100K+
               records), providing strategic insights.
@@ -111,14 +249,14 @@ function Experience() {
               machine learning models with Python in AWS Sage Maker to
               predict customer bounce rates and loan defaults,
               increasing prediction accuracy from 74% to 85%.
-            </ExperienceDescription>
+            </div>
           </VerticalTimelineElement>
-          {/* Add more VerticalTimelineElement components for other experiences */}
         </VerticalTimeline>
       </Container>
     </Container>
   );
 }
+*/
 /*function Experience() { 
   return (
     <Container fluid className="experience-section">

@@ -15,7 +15,6 @@ const ExperienceCard = ({
         <p>{duration}</p>
         <p className="experience-location">{location}</p>
       </div>
-
       <pre>{description}</pre>
     </div>
   );
