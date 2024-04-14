@@ -4,6 +4,7 @@ import Particle from '../Particle';
 import sedin from '../../assets/sedin.svg';
 import Lendingkart from '../../assets/lendingkart.svg';
 import Type from './Type';
+import laptopImg from '../../assets/about.svg';
 import { FaHandPointRight } from 'react-icons/fa';
 import ExperienceCard from './ExperienceCard';
 import descriptions from '../description';
@@ -20,7 +21,7 @@ function Experience() {
         </h1>
 
         <Row style={{ paddingTop: 50 }}>
-          <Col md={12}>
+          <Col md={8}>
             <ExperienceCard
               title="Software Engineer Intern"
               duration="Sep 2021 – Jul 2022"
@@ -40,10 +41,17 @@ function Experience() {
               }
             />
           </Col>
+          <Col
+            md={4}
+            style={{ paddingTop: '120px', paddingBottom: '50px' }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
         </Row>
 
         <Row style={{ paddingTop: 50 }}>
-          <Col md={12}>
+          <Col md={8}>
             <ExperienceCard
               title="Data Analyst / Data Scientist Intern"
               duration="August 2020 – June 2021 "
