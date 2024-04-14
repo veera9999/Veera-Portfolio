@@ -8,12 +8,14 @@ const ExperienceCard = ({
 }) => {
   return (
     <div className="ExperienceCardWrapper">
-      <strong className="green">
-        <h3>{title}</h3>
-      </strong>
-      <p>{duration}</p>
-      <p className="experience-location">{location}</p>
-      <hr />
+      <div className="main-experience">
+        <strong className="green">
+          <h3>{title}</h3>
+        </strong>
+        <p>{duration}</p>
+        <p className="experience-location">{location}</p>
+      </div>
+
       <pre>{description}</pre>
     </div>
   );
