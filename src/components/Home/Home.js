@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import homeLogo from '../../assets/home.svg';
+import About from '../About/About';
 import Particle from '../Particle';
 import Type from './Type';
 import description from '../description';
-
+import Projects from '../Projects/Projects';
+import Experience from '../Experience/Experience';
+import Contact from '../Contact/Contact';
 function Home() {
   return (
     <section>
@@ -43,6 +46,10 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
       </Container>
     </section>
   );

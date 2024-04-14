@@ -780,7 +780,7 @@ button:focus {
   background-color: transparent;
   border: 2px solid var(--green-2) !important;
   border-radius: 8px;
-  padding: 20px;
+  padding: 5px;
   transition: transform 0.3s ease-in-out 0s;
   }
 
