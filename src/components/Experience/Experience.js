@@ -23,7 +23,7 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: 'rgba(255, 255, 255, 0.1)',
+              background: 'rgba(255, 255, 255, 0.2)',
               color: '#fff',
               border: '2px solid #26a641',
               borderRadius: '8px',
@@ -32,7 +32,7 @@ function Experience() {
             contentArrowStyle={{ borderRight: '7px solid #00b894' }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: '#00b894',
+              background: '#006d32',
               color: '#fff',
               display: 'flex',
               alignItems: 'center',
@@ -54,6 +54,7 @@ function Experience() {
                 Sein Technologies, Chennai, India
               </h4>
             </div>
+            <hr />
             <div className="experience-description">
               <p>
                 • Developed applications with Core Java, Maven, Spring
@@ -96,7 +97,7 @@ function Experience() {
             contentArrowStyle={{ borderRight: '7px solid #00b894' }}
             date="August 2020 – June 2021"
             iconStyle={{
-              background: '#00b894',
+              background: '#006d32',
               color: '#fff',
               display: 'flex',
               alignItems: 'center',
@@ -118,6 +119,7 @@ function Experience() {
                 Lending kart Finance Private Limited, Bangalore, India
               </h4>
             </div>
+            <hr />
             <div className="experience-description">
               <p>
                 • Leveraged AWS Athena, Redshift and Excel (macros and
