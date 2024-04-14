@@ -46,11 +46,11 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        <About />
-        <Projects />
-        <Experience />
-        <Contact />
       </Container>
+      <About />
+      <Projects />
+      <Experience />
+      <Contact />
     </section>
   );
 }

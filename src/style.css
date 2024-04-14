@@ -596,8 +596,7 @@ button:focus {
   padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid var(--green-1) !important;
-  /* box-shadow: 4px 5px 4px 3px rgba(21, 158, 69, 0.137); */
-
+  /*box-shadow: 4px 5px 4px 3px rgba(21, 158, 69, 0.137); */
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -825,3 +824,14 @@ button:focus {
   background: var(--green-3);
 }
 
+.experience-card {
+  max-width: 100%;
+  padding: 2rem;
+  border: 2px solid #00b894;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
