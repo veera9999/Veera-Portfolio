@@ -5,14 +5,13 @@ import { Link } from 'react-router-dom';
 import BtnToggleTheme from './BtnTottleTheme';
 import { Col, Dropdown, Row } from 'react-bootstrap';
 import description from './description';
-
+import logo from '../assets/veeralogo.png';
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
 import { MdWorkHistory } from 'react-icons/md';
-import { MdLanguage } from 'react-icons/md';
 import { IoMdContact } from 'react-icons/io';
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -24,6 +23,22 @@ function NavBar() {
       expand="md"
       className="sticky"
     >
+      <Navbar.Brand className="navLogo">
+        <Nav.Link
+          as={Link}
+          to="/"
+          onClick={() => updateExpanded(false)}
+        >
+          <img
+            src={logo}
+            width="40"
+            height="40"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Nav.Link>
+      </Navbar.Brand>
+
       <Navbar.Toggle
         aria-controls="responsive-navbar-nav"
         onClick={() => {
@@ -99,19 +114,6 @@ function NavBar() {
         <Row>
           <Col className="col-sm-4">
             <BtnToggleTheme />
-          </Col>
-
-          <Col className="col-sm-4">
-            <Dropdown>
-              <Dropdown.Toggle id="dropdown-basic">
-                <MdLanguage style={{ fontSize: '26px' }} />{' '}
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item eventKey="en">EN</Dropdown.Item>
-                <Dropdown.Item eventKey="it">IT</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
           </Col>
         </Row>
       )}

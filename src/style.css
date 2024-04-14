@@ -203,7 +203,10 @@ button:focus {
   position: relative;
   margin-left: 20px;
 }
-
+.navbar-nav .nav-item .navLogo {
+  position: relative;
+  margin-left: 0px;
+}
 .navbar-nav .nav-item a {
   font-weight: 400;
   transition: all 0.3s ease-out 0s;
@@ -757,4 +760,17 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/**********************************experience***********************************************/
+.experience-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+}
+.experience-heading {
+  color: var(--text-color) !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
 }

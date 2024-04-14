@@ -11,7 +11,7 @@ const description = {
   Typer3: 'Machne Learning Enthusiast',
   AboutHeader: 'About',
   Me: 'Me',
-  MLE: 'a passionate Full Stack Developer.',
+  MLE: 'a passionate Full Stack Developer',
   IWorkAt: '',
   Company: '',
   CompanyLocation: '',
