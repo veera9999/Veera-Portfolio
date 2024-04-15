@@ -40,6 +40,7 @@ const description = {
   Proj5:
     'Pandas AI is a Python library that integrates generative artificial intelligence capabilities into Pandas, supporting a wide variety of Large Language Models (LLMs) and making dataframes conversational. Main open source contributor.',
   ThisWebsite: 'This website',
+  ContactHeader: 'Get in',
 };
 
 export default description;

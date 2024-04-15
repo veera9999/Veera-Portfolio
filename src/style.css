@@ -1,10 +1,5 @@
 html {
-  --green-light: #92e3a9;
-  --green-0: #0e4429;
-  --green-1: #006d32;
-  --green-2: #26a641;
-  --green-3: #39d353;
-  --imp-text-color: var(--green-3); 
+  
   height: 100%; 
 }
 
@@ -21,6 +16,12 @@ html {
   --nav-active: #f3f3f3;
   --footer-background: transparent;
   --footer-social-icons: black;
+  --green-light: #876df7;
+  --green-0: #2c027a;
+  --green-1: #4a128a;
+  --green-2: #6002ad;
+  --green-3: #8932c4;
+  --imp-text-color: var(--green-3); 
 }
 
 .dark {
@@ -30,6 +31,12 @@ html {
   --nav-active: #161b22; 
   --footer-background: #161b22;
   --footer-social-icons: white;
+  --green-light: #92e3a9;
+  --green-0: #0e4429;
+  --green-1: #006d32;
+  --green-2: #26a641;
+  --green-3: #39d353;
+  --imp-text-color: var(--green-3);
 }
 
 .green {

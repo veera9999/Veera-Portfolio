@@ -9,10 +9,13 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import { MdDataExploration } from 'react-icons/md';
 import { MdOutlineDeveloperMode } from 'react-icons/md';
+import { useThemeContext } from '../../hooks/themeHook';
 
 function Experience() {
+  const { dark } = useThemeContext();
+
   return (
-    <Container fluid className="experience-section">
+    <Container fluid className="experience-section" id="experience">
       <Particle />
       <Container>
         <h1 className="experience-heading">

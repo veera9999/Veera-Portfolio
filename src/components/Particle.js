@@ -10,7 +10,7 @@ const LIGHT_THEME_PARTICLES = {
     },
   },
   color: {
-    value: '#39d353',
+    value: '#6002ad',
   },
   opacity: {
     value: 1,
@@ -34,7 +34,7 @@ const LIGHT_THEME_PARTICLES = {
   },
   links: {
     enable: true,
-    color: '#39d353',
+    color: '#6002ad',
     distance: 50,
     width: 3,
     consent: false,
