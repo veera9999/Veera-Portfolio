@@ -1,32 +1,28 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillMail,
-} from "react-icons/ai";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { AiFillGithub, AiFillMail } from 'react-icons/ai';
 
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsTelegram } from "react-icons/bs";
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
 
-
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4"/>
+        <Col md="4" />
 
         <Col md="4" className="footer-copyright">
-          <h3>Copyright © {year} Massimiliano Pronesti</h3>
+          <h3>Copyright © {year} Veera Palla</h3>
         </Col>
 
         <Col md="4" className="footer-body">
           <ul>
             <li className="social-icons">
-              <a className="footer-social-icons"
-                href="https://github.com/mspronesti"
+              <a
+                className="footer-social-icons"
+                href="https://github.com/veera9999"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,8 +30,9 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a className="footer-social-icons"
-                href="https://www.linkedin.com/in/massimiliano-pronesti/"
+              <a
+                className="footer-social-icons"
+                href="https://www.linkedin.com/in/veera-palla-6097071b8/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -43,27 +40,18 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a className="footer-social-icons"
-                href="mailto:massimiliano.pronesti@gmail.com"
+              <a
+                className="footer-social-icons"
+                href="veera.palla919@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillMail />
               </a>
             </li>
-            <li className="social-icons">
-              <a className="footer-social-icons"
-                href="https://t.me/E_ll3"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <BsTelegram />
-              </a>
-            </li>
           </ul>
         </Col>
-        <Col md="4" className="footer-body"/>
-        
+        <Col md="4" className="footer-body" />
       </Row>
     </Container>
   );

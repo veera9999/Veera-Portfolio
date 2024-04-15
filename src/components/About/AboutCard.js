@@ -29,13 +29,19 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <FaHandPointRight /> Machine and Deep Learning
+              <FaHandPointRight /> Web Development
             </li>
             <li className="about-activity">
-              <FaHandPointRight /> High-Performance Computing
+              <FaHandPointRight /> System Design and Archirtecture
             </li>
             <li className="about-activity">
-              <FaHandPointRight /> Software Engineering
+              <FaHandPointRight /> Generative AI and LLM's
+            </li>
+            <li className="about-activity">
+              <FaHandPointRight /> Machine Learning
+            </li>
+            <li className="about-activity">
+              <FaHandPointRight /> Cloud Computing
             </li>
           </ul>
         </blockquote>

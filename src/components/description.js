@@ -1,6 +1,7 @@
 const description = {
   Projects: 'Projects',
   Experience: 'Experience',
+  Contact: 'Contact',
   Home: 'Home',
   About: 'About',
   Greeting: 'Hi There!',
@@ -10,7 +11,7 @@ const description = {
   Typer3: 'Machne Learning Enthusiast',
   AboutHeader: 'About',
   Me: 'Me',
-  MLE: 'a passionate Full Stack Developer.',
+  MLE: 'a passionate Full Stack Developer',
   IWorkAt: '',
   Company: '',
   CompanyLocation: '',
@@ -39,6 +40,7 @@ const description = {
   Proj5:
     'Pandas AI is a Python library that integrates generative artificial intelligence capabilities into Pandas, supporting a wide variety of Large Language Models (LLMs) and making dataframes conversational. Main open source contributor.',
   ThisWebsite: 'This website',
+  ContactHeader: 'Get in',
 };
 
 export default description;

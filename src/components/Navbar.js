@@ -3,20 +3,30 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import BtnToggleTheme from './BtnTottleTheme';
-import { Col, Dropdown, Row } from 'react-bootstrap';
+import { Col, Row } from 'react-bootstrap';
 import description from './description';
-
+import logolight from '../assets/logolight.png';
+import logodark from '../assets/logodark.png';
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
 import { MdWorkHistory } from 'react-icons/md';
-import { MdLanguage } from 'react-icons/md';
+import { IoMdContact } from 'react-icons/io';
+import { useThemeContext } from '../hooks/themeHook';
 
 function NavBar() {
+  const { dark } = useThemeContext();
   const [expand, updateExpanded] = useState(false);
-
+  const logo = dark ? logodark : logolight;
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      updateExpanded(false);
+    }
+  };
   return (
     <Navbar
       expanded={expand}
@@ -24,6 +34,22 @@ function NavBar() {
       expand="md"
       className="sticky"
     >
+      <Navbar.Brand className="navLogo">
+        <Nav.Link
+          as={Link}
+          to="#"
+          onClick={() => scrollToSection('home')}
+        >
+          <img
+            src={logo}
+            width="40"
+            height="40"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Nav.Link>
+      </Navbar.Brand>
+
       <Navbar.Toggle
         aria-controls="responsive-navbar-nav"
         onClick={() => {
@@ -40,29 +66,27 @@ function NavBar() {
           <Nav.Item>
             <Nav.Link
               as={Link}
-              to="/"
-              onClick={() => updateExpanded(false)}
+              to="#"
+              onClick={() => scrollToSection('home')}
             >
               <AiOutlineHome style={{ marginBottom: '3px' }} /> Home
             </Nav.Link>
           </Nav.Item>
-
           <Nav.Item>
             <Nav.Link
               as={Link}
-              to="/about"
-              onClick={() => updateExpanded(false)}
+              to="#"
+              onClick={() => scrollToSection('about')}
             >
               <AiOutlineUser style={{ marginBottom: '3px' }} />{' '}
               {description.About}
             </Nav.Link>
           </Nav.Item>
-
           <Nav.Item>
             <Nav.Link
               as={Link}
-              to="/project"
-              onClick={() => updateExpanded(false)}
+              to="#"
+              onClick={() => scrollToSection('projects')}
             >
               <AiOutlineFundProjectionScreen
                 style={{ marginBottom: '3px' }}
@@ -70,15 +94,24 @@ function NavBar() {
               {description.Projects}
             </Nav.Link>
           </Nav.Item>
-
           <Nav.Item>
             <Nav.Link
               as={Link}
-              to="/experience"
-              onClick={() => updateExpanded(false)}
+              to="#"
+              onClick={() => scrollToSection('experience')}
             >
               <MdWorkHistory style={{ marginBottom: '3px' }} />{' '}
               {description.Experience}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="#"
+              onClick={() => scrollToSection('contact')}
+            >
+              <IoMdContact style={{ marginBottom: '3px' }} />{' '}
+              {description.Contact}
             </Nav.Link>
           </Nav.Item>
         </Nav>
@@ -88,19 +121,6 @@ function NavBar() {
         <Row>
           <Col className="col-sm-4">
             <BtnToggleTheme />
-          </Col>
-
-          <Col className="col-sm-4">
-            <Dropdown>
-              <Dropdown.Toggle id="dropdown-basic">
-                <MdLanguage style={{ fontSize: '26px' }} />{' '}
-              </Dropdown.Toggle>
-
-              <Dropdown.Menu>
-                <Dropdown.Item eventKey="en">EN</Dropdown.Item>
-                <Dropdown.Item eventKey="it">IT</Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
           </Col>
         </Row>
       )}

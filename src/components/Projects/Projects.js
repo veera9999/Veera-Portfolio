@@ -5,14 +5,14 @@ import Particle from '../Particle';
 import SyncVibe from '../../assets/Projects/SyncVibe.png';
 import Netflix from '../../assets/Projects/Netflix.jpeg';
 import portfolio from '../../assets/Projects/portfolio.png';
-import pandasai from '../../assets/Projects/pandas-ai.png';
+import hms from '../../assets/Projects/HMS.jpg';
 import Skywest from '../../assets/Projects/Skywest.jpg';
 import diffusers from '../../assets/Projects/diffusers.jpg';
 import descriptions from '../description';
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="project-section" id="projects">
       <Particle />
       <Container>
         <h1 className="project-heading">
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pandasai}
+              imgPath={hms}
               isBlog={false}
               title="Pandas AI"
               description={descriptions.Proj5}
