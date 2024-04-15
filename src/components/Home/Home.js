@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import homeLogo from '../../assets/home.svg';
 import About from '../About/About';
 import Particle from '../Particle';
@@ -8,7 +8,12 @@ import description from '../description';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
+
 function Home() {
+  const resumeLink = '../../assets/Veera_resume_DD.pdf';
+  const handleResumeClick = () => {
+    window.open(resumeLink, '_blank');
+  };
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -34,6 +39,19 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
+              </div>
+              <div
+                style={{
+                  position: 'relative',
+                  paddingTop: '80px',
+                  bottom: '20px',
+                  left: '60px',
+                  zIndex: 1,
+                }}
+              >
+                <Button variant="primary" onClick={handleResumeClick}>
+                  View Resume
+                </Button>
               </div>
             </Col>
 

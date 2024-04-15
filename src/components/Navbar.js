@@ -13,6 +13,7 @@ import {
 } from 'react-icons/ai';
 import { MdWorkHistory } from 'react-icons/md';
 import { IoMdContact } from 'react-icons/io';
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
 
