@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import ScrollAnimation from 'react-animate-on-scroll';
 import descriptions from '../description';
 import emailjs from '@emailjs/browser';
 function Contact() {
@@ -30,12 +31,13 @@ function Contact() {
   return (
     <Container fluid className="contact-section" id="contact">
       <Container>
-        <h1 className="contact-heading">
-          {descriptions.ContactHeader}{' '}
-          <strong className="green"> Touch </strong>
-        </h1>
-
-        <Row>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+          <h1 className="contact-heading">
+            {descriptions.ContactHeader}{' '}
+            <strong className="green"> Touch </strong>
+          </h1>
+        </ScrollAnimation>
+        <Row className="contact-main">
           <Col md={6}>
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group controlId="formName">
@@ -85,7 +87,8 @@ function Contact() {
               </Button>
             </Form>
           </Col>
-          <Col md={6} className="social-icons">
+
+          <Col md={6} className="contact-icons">
             <a
               href="https://www.linkedin.com/in/your-profile"
               target="_blank"
