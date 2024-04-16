@@ -38,7 +38,7 @@ function Contact() {
           <strong className="green"> Touch </strong>
         </h1>
         <Row className="contact-main">
-          <Col md={6}>
+          <Col md={6} sm={12}> 
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group
                 controlId="formName"
@@ -91,9 +91,10 @@ function Contact() {
             </Form>
           </Col>
 
-          <Col md={3} className="contact-icons">
+          <Col md={4} className="contact-icons">
             <Container>
               <Row>
+                <Col>
                 <a
                   href="https://www.linkedin.com/in/your-profile"
                   target="_blank"
@@ -101,8 +102,8 @@ function Contact() {
                 >
                   <FaLinkedin />
                 </a>
-              </Row>
-              <Row>
+                </Col>
+                <Col>
                 <a
                   href="https://github.com/your-username"
                   target="_blank"
@@ -110,8 +111,8 @@ function Contact() {
                 >
                   <FaGithub />
                 </a>
-              </Row>
-              <Row>
+                </Col>
+                <Col>
                 <a
                   href="https://twitter.com/your-username"
                   target="_blank"
@@ -119,6 +120,7 @@ function Contact() {
                 >
                   <FaTwitter />
                 </a>
+                </Col>
               </Row>
             </Container>
           </Col>

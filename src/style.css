@@ -805,6 +805,7 @@ button:focus {
 .contact-icons {
   display: flex;
   padding: 10px;
+  padding-top: 50px;
   justify-content: flex-end;
   align-items: center;
   font-size: 2.5rem;
@@ -820,5 +821,5 @@ button:focus {
   color: var(--green-0);
 }
 .contact-main{
-  padding-right: 18rem !important;
+  padding-right: 1 rem ;
 }
