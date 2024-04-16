@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
-import ScrollAnimation from 'react-animate-on-scroll';
 import descriptions from '../description';
 import emailjs from '@emailjs/browser';
 function Contact() {
@@ -26,21 +25,25 @@ function Contact() {
           console.log('FAILED...', error.text);
         },
       );
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
     <Container fluid className="contact-section" id="contact">
       <Container>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <h1 className="contact-heading">
-            {descriptions.ContactHeader}{' '}
-            <strong className="green"> Touch </strong>
-          </h1>
-        </ScrollAnimation>
+        <h1 className="contact-heading">
+          {descriptions.ContactHeader}{' '}
+          <strong className="green"> Touch </strong>
+        </h1>
         <Row className="contact-main">
           <Col md={6}>
             <Form ref={form} onSubmit={sendEmail}>
-              <Form.Group controlId="formName">
+              <Form.Group
+                controlId="formName"
+                className="contact-form"
+              >
                 <Form.Control
                   className="contact-form"
                   type="text"
@@ -88,28 +91,36 @@ function Contact() {
             </Form>
           </Col>
 
-          <Col md={6} className="contact-icons">
-            <a
-              href="https://www.linkedin.com/in/your-profile"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://github.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter />
-            </a>
+          <Col md={3} className="contact-icons">
+            <Container>
+              <Row>
+                <a
+                  href="https://www.linkedin.com/in/your-profile"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
+              </Row>
+              <Row>
+                <a
+                  href="https://github.com/your-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </Row>
+              <Row>
+                <a
+                  href="https://twitter.com/your-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaTwitter />
+                </a>
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>
