@@ -3,7 +3,7 @@ import Preloader from '../src/components/Pre';
 import Navbar from './components/Navbar';
 import Home from './components/Home/Home';
 import Footer from './components/Footer';
-
+import Particle from './components/Particle';
 import {
   BrowserRouter as Router,
   Route,
@@ -32,6 +32,7 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
+        <Particle />
         <Navbar />
         <ScrollToTop />
         <Routes>

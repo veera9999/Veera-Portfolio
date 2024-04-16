@@ -12,7 +12,7 @@ html {
 .light {
   --bg-color: #ffffff;
   --text-color: #24292e;
-  --experience-main: #26a641;
+  --experience-main: #9f53d1;
   --nav-active: #f3f3f3;
   --footer-background: transparent;
   --footer-social-icons: black;
@@ -27,7 +27,7 @@ html {
 .dark {
   --bg-color: #0d1117;
   --text-color: #ffffff;
-  --experience-main: #298b57;
+  --experience-main: #08a04f;
   --nav-active: #161b22; 
   --footer-background: #161b22;
   --footer-social-icons: white;
@@ -733,9 +733,9 @@ button:focus {
   color: var(--green-2)  !important;
 }
 .main-experience{
-  box-shadow: 0px 10px 10px 0px #848584 !important;
+  box-shadow: 0px 4px 10px 0px #858885 !important;
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: var(--experience-main);
   color: var(--text-color) !important;
 }
@@ -756,7 +756,7 @@ button:focus {
 }
 
 .vertical-timeline-element:hover {
-  transform: scale(1.05) translateY(-10px);
+  transform: scale(1.02) translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
 

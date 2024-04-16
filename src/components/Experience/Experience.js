@@ -10,6 +10,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdDataExploration } from 'react-icons/md';
 import { MdOutlineDeveloperMode } from 'react-icons/md';
 import { useThemeContext } from '../../hooks/themeHook';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 function Experience() {
   const { dark } = useThemeContext();
@@ -26,18 +27,24 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: 'rgba(255, 255, 255, 0.2)',
-              color: '#fff',
-              border: '2px solid #26a641',
-              borderRadius: '8px',
-              padding: '2rem',
-              paddingTop: '4em',
+              background: dark
+                ? 'rgba(255, 255, 255,0)'
+                : 'rgba(0, 0, 0,0)',
+              color: dark ? '#39d353' : '#6002ad',
+              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
             }}
-            contentArrowStyle={{ borderRight: '7px solid #00b894' }}
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#006d32' : '#9f53d1'
+              }`,
+            }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: '#006d32',
-              color: '#fff',
+              background: dark ? '#006d32' : '#6002ad',
+              color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -58,11 +65,13 @@ function Experience() {
                 Sein Technologies, Chennai, India
               </h4>
             </div>
+            <span></span>
             <hr />
             <div className="experience-description">
               <p>
-                • Developed applications with Core Java, Maven, Spring
-                MVC, implementing multi-threading and RESTful APIs.
+                <BsPatchCheckFill /> Developed applications with Core
+                Java, Maven, Spring MVC, implementing multi-threading
+                and RESTful APIs.
               </p>
               <p>
                 • Tested applications for end-to-end test cases with
@@ -92,17 +101,24 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: 'rgba(255, 255, 255, 0.1)',
-              color: '#fff',
-              border: '2px solid #26a641',
-              borderRadius: '8px',
-              padding: '2rem',
+              background: dark
+                ? 'rgba(255, 255, 255,0)'
+                : 'rgba(0, 0, 0,0)',
+              color: dark ? '#39d353' : '#6002ad',
+              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
             }}
-            contentArrowStyle={{ borderRight: '7px solid #00b894' }}
-            date="August 2020 – June 2021"
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#006d32' : '#9f53d1'
+              }`,
+            }}
+            date="September 2021 – July 2022"
             iconStyle={{
-              background: '#006d32',
-              color: '#fff',
+              background: dark ? '#006d32' : '#6002ad',
+              color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -123,6 +139,7 @@ function Experience() {
                 Lending kart Finance Private Limited, Bangalore, India
               </h4>
             </div>
+            <span></span>
             <hr />
             <div className="experience-description">
               <p>
