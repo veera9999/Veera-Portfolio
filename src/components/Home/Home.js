@@ -34,7 +34,7 @@ function Home() {
 
               <h1 className="heading-name">
                 {description.Im}
-                <strong className="main-name"> Veera</strong>
+                <strong className="main-name"> Veera Palla</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: 'left' }}>
