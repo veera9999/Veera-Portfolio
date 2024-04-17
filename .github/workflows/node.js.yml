@@ -28,6 +28,11 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
+    - name: Install dependencies
+      run: |
+        npm ci
+        npm install --save-dev intersection-observer
+  
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
       with:
