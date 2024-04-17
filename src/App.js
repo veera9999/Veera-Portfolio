@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home/Home';
 import Footer from './components/Footer';
 import Particle from './components/Particle';
+import IconParticles from './components/IconParticles';
 import {
   BrowserRouter as Router,
   Route,
@@ -33,6 +34,7 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? 'no-scroll' : 'scroll'}>
         <Particle />
+        <IconParticles />
         <Navbar />
         <ScrollToTop />
         <Routes>

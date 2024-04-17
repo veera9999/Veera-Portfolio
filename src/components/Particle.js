@@ -6,14 +6,14 @@ const LIGHT_THEME_PARTICLES = {
     value: 20,
     density: {
       enable: true,
-      value_area: 600,
+      value_area: 800,
     },
   },
   color: {
     value: '#6002ad',
   },
   opacity: {
-    value: 1,
+    value: 5,
     random: true,
     anim: {
       enable: true,
@@ -23,12 +23,12 @@ const LIGHT_THEME_PARTICLES = {
     },
   },
   size: {
-    value: 5,
+    value: 4,
     random: true,
     anim: {
       enable: true,
-      speed: 5,
-      size_min: 3,
+      speed: 3,
+      size_min: 2,
       sync: false,
     },
   },
@@ -66,7 +66,7 @@ export const DARK_THEME_PARTICLES = {
   move: {
     enable: true,
     direction: 'right',
-    speed: 3,
+    speed: 1,
   },
   size: {
     value: 1,
