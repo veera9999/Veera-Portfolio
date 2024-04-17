@@ -34,6 +34,10 @@ jobs:
         npm install --save-dev intersection-observer
   
     - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4
-      with:
-        folder: build # The folder the action should deploy.
+      - uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.DEPLOY_PORTFOLIO }}
+          branch: gh-pages
+          folder: build
+          clean: true
+          force: true
