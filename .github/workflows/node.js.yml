@@ -1,4 +1,3 @@
-
 name: Deploy using Github Action
 
 on:
@@ -35,9 +34,9 @@ jobs:
   
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          token: ${{ secrets.DEPLOY_PORTFOLIO }}
-          branch: gh-pages
-          folder: build
-          clean: true
-          force: true
+      with:
+        token: ${{ secrets.DEPLOY_PORTFOLIO }}
+        branch: gh-pages
+        folder: build
+        clean: true
+        force: true
