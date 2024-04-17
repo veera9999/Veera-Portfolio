@@ -169,6 +169,77 @@ function Experience() {
               </p>
             </div>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work experience-card"
+            contentStyle={{
+              background: dark
+                ? 'rgba(255, 255, 255,0)'
+                : 'rgba(0, 0, 0,0)',
+              color: dark ? '#39d353' : '#f54500',
+              border: `3px solid ${dark ? '#006d32' : '#f54500'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
+            }}
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#006d32' : '#f54500'
+              }`,
+            }}
+            date="September 2021 – July 2022"
+            iconStyle={{
+              background: dark ? '#006d32' : '#f54500',
+              color: '#ffffff',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={
+              <span>
+                <MdDataExploration />
+              </span>
+            }
+          >
+            <div className="main-experience">
+              <h3 className="vertical-timeline-element-title">
+                Student Club President
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                XNerves, Punjab, India
+              </h4>
+            </div>
+            <span></span>
+            <hr />
+            <div className="experience-description">
+              <p>
+                • XNerves is a student body Tecnical Club that mainly
+                focuses on developing it's members coding abilities
+                through various methods.
+              </p>
+              <p>
+                • Generated regular analysis reports for facilitating
+                key business decisions while working in collections
+                team.
+              </p>
+              <p>
+                • Performed data preprocessing and cleaning with
+                Python and R, enhancing data quality by 25%.
+              </p>
+              <p>
+                • Built Tableau dashboards for visualization & KPI
+                metrics evaluation, leading to 20% increase in debt
+                recovery.
+              </p>
+              <p>
+                • Collaborated with teams to develop and refine
+                machine learning models with Python in AWS Sage Maker
+                to predict customer bounce rates and loan defaults,
+                increasing prediction accuracy from 74% to 85%.
+              </p>
+            </div>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </Container>
     </Container>
