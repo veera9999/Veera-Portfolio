@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.c51f29b9.css",
-    "main.js": "/Veera-Portfolio/static/js/main.7bc6984c.js",
+    "main.css": "/Veera-Portfolio/static/css/main.735f3bbe.css",
+    "main.js": "/Veera-Portfolio/static/js/main.fc8cb90b.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
@@ -25,7 +25,7 @@
     "static/media/bootstrap-icon.svg": "/Veera-Portfolio/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
     "static/media/angular.svg": "/Veera-Portfolio/static/media/angular.ed39c192421b98e1d0769f9e687a0ca2.svg",
     "static/media/react-icon.svg": "/Veera-Portfolio/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
-    "static/media/pre.svg": "/Veera-Portfolio/static/media/pre.52550f7d5abaf76c0972.svg",
+    "static/media/pre.svg": "/Veera-Portfolio/static/media/pre.375e2ef4ce68509fbb92.svg",
     "static/media/flutter.svg": "/Veera-Portfolio/static/media/flutter.aa61fc4da90143201a360f2065c10ea4.svg",
     "static/media/pythonLogo.svg": "/Veera-Portfolio/static/media/pythonLogo.6a6edf8d31478f5db22d104cf3f0e5b8.svg",
     "static/media/html-icon.svg": "/Veera-Portfolio/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
@@ -33,12 +33,12 @@
     "index.html": "/Veera-Portfolio/index.html",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/scalaLogo.svg": "/Veera-Portfolio/static/media/scalaLogo.c59b948b6429cd2a901223ece1bf0390.svg",
-    "main.c51f29b9.css.map": "/Veera-Portfolio/static/css/main.c51f29b9.css.map",
-    "main.7bc6984c.js.map": "/Veera-Portfolio/static/js/main.7bc6984c.js.map",
+    "main.735f3bbe.css.map": "/Veera-Portfolio/static/css/main.735f3bbe.css.map",
+    "main.fc8cb90b.js.map": "/Veera-Portfolio/static/js/main.fc8cb90b.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c51f29b9.css",
-    "static/js/main.7bc6984c.js"
+    "static/css/main.735f3bbe.css",
+    "static/js/main.fc8cb90b.js"
   ]
 }
