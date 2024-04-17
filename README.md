@@ -1,6 +1,6 @@
 # Personal Portfolio Website 
 
-Personal developer portfolio written in React and NodeJS.
+Personal developer portfolio written in React, React-Bootstrap and NodeJS
 
 If you use this project, please:
 * Leave it a star
