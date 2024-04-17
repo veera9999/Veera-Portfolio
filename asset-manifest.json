@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Veera-Portfolio/static/css/main.735f3bbe.css",
-    "main.js": "/Veera-Portfolio/static/js/main.ad02d96b.js",
+    "main.js": "/Veera-Portfolio/static/js/main.fc8cb90b.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
@@ -34,11 +34,11 @@
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/scalaLogo.svg": "/Veera-Portfolio/static/media/scalaLogo.c59b948b6429cd2a901223ece1bf0390.svg",
     "main.735f3bbe.css.map": "/Veera-Portfolio/static/css/main.735f3bbe.css.map",
-    "main.ad02d96b.js.map": "/Veera-Portfolio/static/js/main.ad02d96b.js.map",
+    "main.fc8cb90b.js.map": "/Veera-Portfolio/static/js/main.fc8cb90b.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.735f3bbe.css",
-    "static/js/main.ad02d96b.js"
+    "static/js/main.fc8cb90b.js"
   ]
 }
