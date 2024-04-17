@@ -16,10 +16,10 @@ html {
   --nav-active: #f3f3f3;
   --footer-background: transparent;
   --footer-social-icons: black;
-  --green-light: #876df7;
-  --green-0: #2c027a;
-  --green-1: #4a128a;
-  --green-2: #6002ad;
+  --green-light: #f86b33;
+  --green-0: #d35f2a;
+  --green-1: #f55307;
+  --green-2: #f54500;
   --green-3: #f74d23;
   --imp-text-color: var(--green-3); 
 }
