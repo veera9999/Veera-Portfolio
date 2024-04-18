@@ -10,38 +10,38 @@ const LIGHT_THEME_PARTICLES = {
     },
   },
   color: {
-    value: '#f54500',
+    value: '#0e4429',
   },
   opacity: {
-    value: 5,
+    value: 1,
     random: true,
     anim: {
       enable: true,
-      speed: 2,
+      speed: 1,
       opacity_min: 0.1,
       sync: false,
     },
   },
   size: {
-    value: 4,
+    value: 5,
     random: true,
     anim: {
       enable: true,
-      speed: 3,
-      size_min: 2,
+      speed: 2,
+      size_min: 3,
       sync: false,
     },
   },
   links: {
     enable: true,
-    color: '#f54500',
+    color: '#0e4429',
     distance: 50,
-    width: 3,
+    width: 1,
     consent: false,
   },
   move: {
     enable: true,
-    speed: 2,
+    speed: 1,
     direction: 'none',
     random: false,
     straight: false,
@@ -60,13 +60,13 @@ export const DARK_THEME_PARTICLES = {
     value: 100,
     density: {
       enable: true,
-      area: 1000,
+      area: 800,
     },
   },
   move: {
     enable: true,
     direction: 'right',
-    speed: 1,
+    speed: 0.05,
   },
   size: {
     value: 1,
