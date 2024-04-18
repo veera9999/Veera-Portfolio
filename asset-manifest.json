@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.53f5a8b1.css",
-    "main.js": "/Veera-Portfolio/static/js/main.922e602a.js",
+    "main.css": "/Veera-Portfolio/static/css/main.000e02b9.css",
+    "main.js": "/Veera-Portfolio/static/js/main.11798e41.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
-    "static/media/HMS.jpg": "/Veera-Portfolio/static/media/HMS.910b1348d15a7de13e36.jpg",
+    "static/media/BestBuy.jpg": "/Veera-Portfolio/static/media/BestBuy.e0695b6608ced9d67d25.jpg",
     "static/media/logolight.png": "/Veera-Portfolio/static/media/logolight.8285de2a3bbadb7814b2.png",
     "static/media/logodark.png": "/Veera-Portfolio/static/media/logodark.0b667ec726e6615af901.png",
     "static/media/home5.svg": "/Veera-Portfolio/static/media/home5.8fb38ab75921122116c2751d5f70bfdf.svg",
-    "static/media/diffusers.jpg": "/Veera-Portfolio/static/media/diffusers.9f73312db10409c74264.jpg",
+    "static/media/HMS.jpg": "/Veera-Portfolio/static/media/HMS.ffc4d843698a78b37afc.jpg",
     "static/media/Skywest.jpg": "/Veera-Portfolio/static/media/Skywest.d87fb6170c676cc1d4bc.jpg",
     "static/media/about.svg": "/Veera-Portfolio/static/media/about.fcd5f18ce5007375f7f31eaad46ce0f6.svg",
     "static/media/Netflix.jpeg": "/Veera-Portfolio/static/media/Netflix.209627f97d3ece8b7863.jpeg",
@@ -33,12 +33,12 @@
     "index.html": "/Veera-Portfolio/index.html",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/scalaLogo.svg": "/Veera-Portfolio/static/media/scalaLogo.c59b948b6429cd2a901223ece1bf0390.svg",
-    "main.53f5a8b1.css.map": "/Veera-Portfolio/static/css/main.53f5a8b1.css.map",
-    "main.922e602a.js.map": "/Veera-Portfolio/static/js/main.922e602a.js.map",
+    "main.000e02b9.css.map": "/Veera-Portfolio/static/css/main.000e02b9.css.map",
+    "main.11798e41.js.map": "/Veera-Portfolio/static/js/main.11798e41.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53f5a8b1.css",
-    "static/js/main.922e602a.js"
+    "static/css/main.000e02b9.css",
+    "static/js/main.11798e41.js"
   ]
 }
