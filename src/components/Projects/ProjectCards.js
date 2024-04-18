@@ -6,10 +6,17 @@ import description from '../description';
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img
+        className="project-card-img"
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+      />
       <div className="card-body-wrapper">
         <Card.Body>
-          <Card.Title>{props.title}</Card.Title>
+          <Card.Title>
+            <span className="green">{props.title}</span>
+          </Card.Title>
           <Card.Text style={{ textAlign: 'justify' }}>
             {props.description}
           </Card.Text>

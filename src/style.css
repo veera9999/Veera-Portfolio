@@ -542,6 +542,10 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }
+.project-card-img{
+  width: auto;
+  height:240px;
+}
 .card-body-wrapper {
   flex-grow: 1;
   display: flex;

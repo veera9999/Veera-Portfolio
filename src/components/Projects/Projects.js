@@ -7,7 +7,7 @@ import Netflix from '../../assets/Projects/Netflix.jpeg';
 import portfolio from '../../assets/Projects/portfolio.png';
 import hms from '../../assets/Projects/HMS.jpg';
 import Skywest from '../../assets/Projects/Skywest.jpg';
-import diffusers from '../../assets/Projects/diffusers.jpg';
+import bestbuy from '../../assets/Projects/BestBuy.jpg';
 import descriptions from '../description';
 
 function Projects() {
@@ -32,6 +32,24 @@ function Projects() {
               link="https://github.com/LaurentMazare/diffusers-rs"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bestbuy}
+              title="E-commerce Website"
+              description={descriptions.Proj1}
+              link="https://github.com/LaurentMazare/diffusers-rs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hms}
+              isBlog={false}
+              title="HMS"
+              description={descriptions.Proj5}
+              link="https://github.com/gventuri/pandas-ai"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -40,16 +58,6 @@ function Projects() {
               title="Netflix Data Analysis"
               description={descriptions.Proj2}
               link="https://github.com/mspronesti/baylib"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={hms}
-              isBlog={false}
-              title="Pandas AI"
-              description={descriptions.Proj5}
-              link="https://github.com/gventuri/pandas-ai"
             />
           </Col>
 
@@ -70,15 +78,6 @@ function Projects() {
               title={descriptions.ThisWebsite}
               description={descriptions.Proj4}
               link="https://github.com/mspronesti/mspronesti.github.io"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={diffusers}
-              title="Diffusers-rs"
-              description={descriptions.Proj1}
-              link="https://github.com/LaurentMazare/diffusers-rs"
             />
           </Col>
         </Row>
