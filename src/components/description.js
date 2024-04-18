@@ -30,13 +30,13 @@ const description = {
   View: 'View Project',
   ProjSubtitle: "Here are a few projects I've worked on recently",
   Proj1:
-    "Rust implementation of the diffusers API, equivalent to huggingface's diffusers. Based on the tch-rs crate (Torch in Rust), this implementation is complete enough so as to be able to run Stable Diffusion v1.5 and v2.1. Main open-source contributor.",
+    'Synchronous music controller system, integrated with spotify API. Built with Django on the Back-end and React on the front-end. Implemented session management and token-authorization for the spotify.',
   Proj2:
-    'High-performance header-only C++20 library for Bayesian inference on discrete Bayesian networks, supporting both CPU and GPU implementations (CUDA and OpenCL) of inference algorithms and copy-on-write (CoW) memory optimizations.',
+    'This project involves in-depth data analysis on a Netflix dataset and developing a user recommendation model using PyTorch collaborative filtering techniques. The goal is to gain insights into user viewing patterns and preferences, and leverage this information to build a robust recommendation system.',
   Proj3:
     'Python toolkit for quantum machine learning, developed on top of Qiskit, offers well-known supervised and unsupervised machine learning implementations for a gated quantum computer. Winner of a University award for best project.',
   Proj4:
-    'Personal website portfolio for professional usage. Built with React, NodeJS and ❤️. Highly customizable and easy to use.',
+    'Personal website portfolio built with React, NodeJS and ❤️. Used React-Bootstrap, Rect-Particles Libraries for styling. Used Github Actions for CI/CD and Github Pages for deployment.',
   Proj5:
     'Pandas AI is a Python library that integrates generative artificial intelligence capabilities into Pandas, supporting a wide variety of Large Language Models (LLMs) and making dataframes conversational. Main open source contributor.',
   ThisWebsite: 'This website',

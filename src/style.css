@@ -13,6 +13,7 @@ html {
   --bg-color: #ffffff;
   --text-color: #24292e;
   --experience-main: #9f53d1;
+  --tech-icon-background: rgb(255, 255, 255, 0.9);
   --nav-active: #f3f3f3;
   --footer-background: transparent;
   --footer-social-icons: black;
@@ -28,6 +29,7 @@ html {
   --bg-color: #0d1117;
   --text-color: #ffffff;
   --experience-main: #08a04f;
+  --tech-icon-background: rgba(0, 0, 0, 0.8);
   --nav-active: #161b22; 
   --footer-background: #161b22;
   --footer-social-icons: white;
@@ -531,6 +533,8 @@ button:focus {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
+  display: flex;
+  flex-direction: column;
   height: 100% !important;
 }
 .project-card-view:hover {
@@ -538,12 +542,28 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }
-
+.card-body-wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-body-wrapper .card-text {
+  flex-grow: 1;
+}
+.card-body-wrapper .btn {
+  width: 180px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
 .btn-primary {
   color: white !important;
   background-color: var(--green-1) !important;
   border-color: var(--green-1) !important;
+  bottom: 0 !important;
 }
+
+
 
 .btn-primary:hover {
   color: white !important;
@@ -634,14 +654,14 @@ button:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(20px);
+  background-color: var(--tech-icon-background);
+  backdrop-filter: blur(80px);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
+  color: var(--text-color);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
