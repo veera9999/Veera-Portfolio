@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 import descriptions from '../description';
 import emailjs from '@emailjs/browser';
 function Contact() {
@@ -38,7 +39,7 @@ function Contact() {
           <strong className="green"> Touch </strong>
         </h1>
         <Row className="contact-main">
-          <Col md={6} sm={12}> 
+          <Col md={6} sm={12}>
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group
                 controlId="formName"
@@ -95,31 +96,31 @@ function Contact() {
             <Container>
               <Row>
                 <Col>
-                <a
-                  href="https://www.linkedin.com/in/your-profile"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin />
-                </a>
+                  <a
+                    href="https://www.linkedin.com/in/veera-palla-6097071b8/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin />
+                  </a>
                 </Col>
                 <Col>
-                <a
-                  href="https://github.com/your-username"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub />
-                </a>
+                  <a
+                    href="https://github.com/veera9999/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                  </a>
                 </Col>
                 <Col>
-                <a
-                  href="https://twitter.com/your-username"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter />
-                </a>
+                  <a
+                    href="https://twitter.com/VeeraPalla1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaSquareXTwitter />
+                  </a>
                 </Col>
               </Row>
             </Container>

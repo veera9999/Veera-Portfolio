@@ -29,7 +29,7 @@ function Projects() {
               imgPath={SyncVibe}
               title="SyncVibe"
               description={descriptions.Proj1}
-              link="https://github.com/LaurentMazare/diffusers-rs"
+              link="https://github.com/veera9999/REACT-DJANGO"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={bestbuy}
               title="E-commerce Website"
               description={descriptions.Proj1}
-              link="https://github.com/LaurentMazare/diffusers-rs"
+              link="https://github.com/veera9999/BestBuy2"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="HMS"
               description={descriptions.Proj5}
-              link="https://github.com/gventuri/pandas-ai"
+              link="https://github.com/veera9999/HMSWEB"
             />
           </Col>
 
@@ -57,7 +57,7 @@ function Projects() {
               isBlog={false}
               title="Netflix Data Analysis"
               description={descriptions.Proj2}
-              link="https://github.com/mspronesti/baylib"
+              link="https://github.com/veera9999/"
             />
           </Col>
 
@@ -67,7 +67,7 @@ function Projects() {
               isBlog={false}
               title="Skywest Airlines Performance Analysis"
               description={descriptions.Proj3}
-              link="https://github.com/mspronesti/qlearnkit"
+              link="https://github.com/veera9999/"
             />
           </Col>
 
@@ -77,7 +77,7 @@ function Projects() {
               isBlog={false}
               title={descriptions.ThisWebsite}
               description={descriptions.Proj4}
-              link="https://github.com/mspronesti/mspronesti.github.io"
+              link="https://github.com/veera9999/Veera-Portfolio"
             />
           </Col>
         </Row>
