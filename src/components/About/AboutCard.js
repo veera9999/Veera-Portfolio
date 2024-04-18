@@ -16,11 +16,11 @@ function AboutCard() {
             <br />
             {description.IHoldDegree1}{' '}
             <span className="green">
-              Computer Science Engineering
+              Management Information Systems
             </span>{' '}
             {description.School1} {description.And}{' '}
             <span className="green">
-              Data Science and Engineering
+              Computer Science and Engineering
             </span>{' '}
             {description.School2}.
             <br />
