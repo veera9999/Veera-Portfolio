@@ -30,26 +30,45 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: '120px', paddingBottom: '50px' }}
+            style={{ paddingTop: '150px', paddingBottom: '50px' }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          <strong className="green">{description.Languages} </strong>
-          {description.And}{' '}
-          <strong className="green">{description.Frameworks} </strong>{' '}
-          {description.IUse}
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="green">Tools</strong> {description.IUse}
-        </h1>
-        <Toolstack />
-
+        <div style={{ paddingTop: '300px' }}>
+          <h1 className="project-heading">
+            <strong className="green">
+              {description.Languages}{' '}
+            </strong>
+            {description.And}{' '}
+            <strong className="green">
+              {description.Frameworks}{' '}
+            </strong>{' '}
+            {description.IUse}
+          </h1>
+        </div>
+        <div
+          style={{
+            paddingTop: '30px',
+          }}
+        >
+          <Techstack />
+        </div>
+        <div style={{ paddingTop: '300px' }}>
+          <h1 className="project-heading">
+            <strong className="green">Tools</strong>{' '}
+            {description.IUse}
+          </h1>
+        </div>
+        <div
+          style={{
+            paddingTop: '30px',
+            paddingBottom: '200px',
+          }}
+        >
+          <Toolstack />
+        </div>
         <Github />
       </Container>
     </Container>

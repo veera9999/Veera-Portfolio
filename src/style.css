@@ -299,14 +299,14 @@ button:focus {
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 40px !important;
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: var(--text-color);
   text-align: left;
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .heading {
@@ -359,12 +359,12 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 30px !important;
+  padding-top: 40px !important;
 }
 
 .home-about-description {
   color: var(--text-color) !important;
-  padding-top: 100px !important;
+  padding-top: 150px !important;
   padding-bottom: 20px !important;
   text-align: center;
 }
@@ -515,7 +515,7 @@ button:focus {
 
 .project-section {
   position: relative !important;
-  padding-top: 100px !important;
+  padding-top: 150px !important;
   padding-bottom: 30px !important;
 }
 
@@ -633,7 +633,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 60px !important;
+  padding-top: 200px !important;
   padding-bottom: 30px !important;
   color: var(--text-color) !important;
 }
@@ -758,7 +758,7 @@ button:focus {
 
 .experience-section {
   position: relative !important;
-  padding-top: 100px !important;
+  padding-top: 200px !important;
   padding-bottom: 30px !important;
 }
 .experience-heading {
@@ -814,8 +814,8 @@ button:focus {
 
 .contact-section {
   position: relative !important;
-  padding-top: 100px !important;
-  padding-bottom: 30px !important;
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
 }
 .contact-heading{
   color: var(--text-color) !important;
