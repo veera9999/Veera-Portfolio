@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { useThemeContext } from '../../hooks/themeHook';
 import {
   DiJavascript1,
   DiReact,
@@ -32,7 +31,6 @@ import {
 import { FaJava } from 'react-icons/fa';
 
 function Techstack() {
-  const { dark } = useThemeContext();
   const toolNameMap = {
     SiCplusplus: 'C++',
     DiPython: 'Python',
