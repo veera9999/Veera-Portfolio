@@ -10,7 +10,7 @@ const LIGHT_THEME_PARTICLES = {
     },
   },
   color: {
-    value: '#0e4429',
+    value: ['9f53d1', 'f54500', '39d353', 'f86b33'],
   },
   opacity: {
     value: 1,
@@ -34,7 +34,7 @@ const LIGHT_THEME_PARTICLES = {
   },
   links: {
     enable: true,
-    color: '#0e4429',
+    color: '#ffffff',
     distance: 50,
     width: 1,
     consent: false,

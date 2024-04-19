@@ -45,7 +45,6 @@ function Experience() {
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
               background: 'inherit',
-              backdropFilter: 'blur(10px)',
               color: dark ? '#39d353' : '#6002ad',
               border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
@@ -137,7 +136,6 @@ function Experience() {
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
               background: 'inherit',
-              backdropFilter: 'blur(10px)',
               color: dark ? '#39d353' : '#6002ad',
               border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
@@ -223,7 +221,6 @@ function Experience() {
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
               background: 'inherit',
-              backdropFilter: 'blur(10px)',
               color: dark ? '#39d353' : '#6002ad',
               border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
