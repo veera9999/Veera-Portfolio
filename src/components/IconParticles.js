@@ -5,18 +5,29 @@ import cssIcon from '../assets/Particles/css-icon.svg';
 import jsIcon from '../assets/Particles/js-icon.svg';
 import nodeIcon from '../assets/Particles/node-icon.svg';
 import reactIcon from '../assets/Particles/react-icon.svg';
-import typescriptIcon from '../assets/Particles/typescript-icon.svg';
 import boostrapIcon from '../assets/Particles/bootstrap-icon.svg';
 import javaIcon from '../assets/Particles/java.svg';
-import scalaLogo from '../assets/Particles/scalaLogo.svg';
 import cSharp from '../assets/Particles/cSharp.svg';
 import aws from '../assets/Particles/aws.svg';
 import mysql from '../assets/Particles/mysql-icon.svg';
 import linux from '../assets/Particles/linux.svg';
 import kubernetes from '../assets/Particles/kubernetes.svg';
 import docker from '../assets/Particles/docker.svg';
-import flutter from '../assets/Particles/flutter.svg';
-import angular from '../assets/Particles/angular.svg';
+import babel2 from '../assets/Particles/babel2.svg';
+import django from '../assets/Particles/django.svg';
+import flask from '../assets/Particles/flask.svg';
+import git from '../assets/Particles/git.svg';
+import jira from '../assets/Particles/jira.svg';
+import maven from '../assets/Particles/maven.svg';
+import oracle from '../assets/Particles/oracle.svg';
+import postgresql from '../assets/Particles/postgresql.svg';
+import postman from '../assets/Particles/postman.svg';
+import redux from '../assets/Particles/redux.svg';
+import swagger from '../assets/Particles/swagger.svg';
+import tomcat from '../assets/Particles/tomcat.svg';
+import webpack from '../assets/Particles/webpack.svg';
+import github from '../assets/Particles/github.svg';
+import vscode from '../assets/Particles/vscode-icon.svg';
 import python from '../assets/Particles/pythonLogo.svg';
 
 export function IconParticles() {
@@ -181,22 +192,12 @@ export function IconParticles() {
                 height: 20,
               },
               {
-                src: typescriptIcon,
-                width: 20,
-                height: 20,
-              },
-              {
                 src: python,
                 width: 20,
                 height: 20,
               },
               {
                 src: javaIcon,
-                width: 20,
-                height: 20,
-              },
-              {
-                src: scalaLogo,
                 width: 20,
                 height: 20,
               },
@@ -231,12 +232,77 @@ export function IconParticles() {
                 height: 20,
               },
               {
-                src: flutter,
+                src: postgresql,
                 width: 20,
                 height: 20,
               },
               {
-                src: angular,
+                src: git,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: github,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: postman,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: oracle,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: jira,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: redux,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: babel2,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: webpack,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: vscode,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: swagger,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: flask,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: django,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: maven,
+                width: 20,
+                height: 20,
+              },
+              {
+                src: tomcat,
                 width: 20,
                 height: 20,
               },

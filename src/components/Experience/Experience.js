@@ -10,8 +10,24 @@ import 'react-vertical-timeline-component/style.min.css';
 import { MdDataExploration } from 'react-icons/md';
 import { MdOutlineDeveloperMode } from 'react-icons/md';
 import { useThemeContext } from '../../hooks/themeHook';
-import { BsPatchCheckFill } from 'react-icons/bs';
-
+import { FaJava } from 'react-icons/fa6';
+import { HiDocumentReport } from 'react-icons/hi';
+import { GiArtificialIntelligence } from 'react-icons/gi';
+import { PiStudentFill } from 'react-icons/pi';
+import { GrWorkshop } from 'react-icons/gr';
+import { VscOrganization } from 'react-icons/vsc';
+import { BsPeopleFill } from 'react-icons/bs';
+import {
+  SiSwagger,
+  SiSpringsecurity,
+  SiHibernate,
+  SiAmazonaws,
+  SiGit,
+  SiMicrosoftexcel,
+  SiPython,
+  SiTableau,
+  SiHackerrank,
+} from 'react-icons/si';
 function Experience() {
   const { dark } = useThemeContext();
 
@@ -20,16 +36,16 @@ function Experience() {
       <Particle />
       <Container>
         <h1 className="experience-heading">
-          {descriptions.ProjHeader}{' '}
+          {descriptions.ProjHeader}
+          {'  '}
           <strong className="green">{descriptions.Experience}</strong>
         </h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: dark
-                ? 'rgba(255, 255, 255,0)'
-                : 'rgba(0, 0, 0,0)',
+              background: 'inherit',
+              backdropFilter: 'blur(10px)',
               color: dark ? '#39d353' : '#6002ad',
               border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
@@ -43,7 +59,7 @@ function Experience() {
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: dark ? '#006d32' : '#6002ad',
+              background: `${dark ? '#006d32' : '#9f53d1'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -69,7 +85,7 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                <BsPatchCheckFill
+                <FaJava
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 {''}Developed applications with Core Java, Maven,
@@ -77,14 +93,15 @@ function Experience() {
                 APIs.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiSwagger
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
-                />{' '}
+                />
+                {'  '}
                 Tested applications for end-to-end test cases with
                 JUnit and Swagger and resolved over 100 bugs.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiSpringsecurity
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Elevated application security by implementing user
@@ -92,14 +109,14 @@ function Experience() {
                 in 2X security.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiHibernate
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Implemented mapping of relational databases to Java
                 objects with Ibatis and Hibernate.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiAmazonaws
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Leveraged AWS EC2, S3, API Gateway and RDS for
@@ -107,7 +124,7 @@ function Experience() {
                 time by 40%.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiGit
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Streamlined CI/CD process using AWS Code Pipeline and
@@ -119,9 +136,8 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: dark
-                ? 'rgba(255, 255, 255,0)'
-                : 'rgba(0, 0, 0,0)',
+              background: 'inherit',
+              backdropFilter: 'blur(10px)',
               color: dark ? '#39d353' : '#6002ad',
               border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
@@ -135,7 +151,7 @@ function Experience() {
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: dark ? '#006d32' : '#6002ad',
+              background: `${dark ? '#006d32' : '#9f53d1'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -161,7 +177,7 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                <BsPatchCheckFill
+                <SiMicrosoftexcel
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Leveraged AWS Athena, Redshift and Excel (macros and
@@ -169,7 +185,7 @@ function Experience() {
                 records), providing strategic insights.
               </p>
               <p>
-                <BsPatchCheckFill
+                <HiDocumentReport
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Generated regular analysis reports for facilitating
@@ -177,14 +193,15 @@ function Experience() {
                 team.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiPython
+                  hCheckFill
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Performed data preprocessing and cleaning with Python
                 and R, enhancing data quality by 25%.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiTableau
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Built Tableau dashboards for visualization & KPI
@@ -192,7 +209,7 @@ function Experience() {
                 recovery.
               </p>
               <p>
-                <BsPatchCheckFill
+                <GiArtificialIntelligence
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Collaborated with teams to develop and refine machine
@@ -205,23 +222,22 @@ function Experience() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work experience-card"
             contentStyle={{
-              background: dark
-                ? 'rgba(255, 255, 255,0)'
-                : 'rgba(0, 0, 0,0)',
-              color: dark ? '#39d353' : '#f54500',
-              border: `3px solid ${dark ? '#006d32' : '#f54500'}`,
+              background: 'inherit',
+              backdropFilter: 'blur(10px)',
+              color: dark ? '#39d353' : '#6002ad',
+              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
               borderRadius: '20px',
               padding: '1rem',
               paddingTop: '1em',
             }}
             contentArrowStyle={{
               borderRight: `15px solid ${
-                dark ? '#006d32' : '#f54500'
+                dark ? '#006d32' : '#9f53d1'
               }`,
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: dark ? '#006d32' : '#f54500',
+              background: `${dark ? '#006d32' : '#9f53d1'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -247,7 +263,7 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                <BsPatchCheckFill
+                <PiStudentFill
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />
                 {'  '}
@@ -256,7 +272,7 @@ function Experience() {
                 members through a multifaceted approach.
               </p>
               <p>
-                <BsPatchCheckFill
+                <GrWorkshop
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Conducted comprehensive technical workshops and guest
@@ -264,7 +280,7 @@ function Experience() {
                 skill development of students.
               </p>
               <p>
-                <BsPatchCheckFill
+                <SiHackerrank
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Organized coding hackathons that promote healthy
@@ -272,7 +288,7 @@ function Experience() {
                 of collaboration and innovation.
               </p>
               <p>
-                <BsPatchCheckFill
+                <VscOrganization
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Fostered a vibrant and inclusive community of
@@ -281,7 +297,7 @@ function Experience() {
                 are actively encouraged.
               </p>
               <p>
-                <BsPatchCheckFill
+                <BsPeopleFill
                   style={{ color: dark ? '#26a641' : '#6002ad' }}
                 />{' '}
                 Organized networking events, facilitating connections

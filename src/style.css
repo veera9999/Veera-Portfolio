@@ -531,6 +531,7 @@ button:focus {
   box-shadow: 0 4px 5px 3px var(--green-0) !important;
   color: var(--text-color) !important;
   background-color: transparent !important;
+  backdrop-filter: blur(10px);
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   display: flex;
@@ -540,6 +541,9 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) translate(-10px, -20px) !important;
   overflow: hidden !important;
+  background-color: #0d1117 !important;
+  color: #ffffff !important;
+  backdrop-filter: blur(0px) !important; 
   box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }
 .project-card-img{

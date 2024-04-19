@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
+import { useThemeContext } from '../../hooks/themeHook';
 import {
   DiJavascript1,
   DiReact,
@@ -12,7 +13,6 @@ import {
   SiCplusplus,
   SiPytorch,
   SiHtml5,
-  SiQiskit,
   SiScikitlearn,
   SiGnubash,
   SiCsharp,
@@ -26,11 +26,13 @@ import {
   SiRedux,
   SiWebpack,
   SiBabel,
+  SiBootstrap,
 } from 'react-icons/si';
 
 import { FaJava } from 'react-icons/fa';
 
 function Techstack() {
+  const { dark } = useThemeContext();
   const toolNameMap = {
     SiCplusplus: 'C++',
     DiPython: 'Python',
@@ -40,7 +42,6 @@ function Techstack() {
     DiNodejs: 'Node.js',
     DiReact: 'React',
     SiScikitlearn: 'Scikit-learn',
-    SiQiskit: 'Qiskit',
     SiPytorch: 'PyTorch',
     DiSpark: 'Spark',
     DiRust: 'Rust',
@@ -56,6 +57,7 @@ function Techstack() {
     SiRedux: 'Redux',
     SiWebpack: 'Webpack',
     SiBabel: 'Babel',
+    SiBootstrap: 'Boottrap',
   };
 
   return (
@@ -69,6 +71,7 @@ function Techstack() {
         <DiJavascript1 />,
         <SiHtml5 />,
         <SiCss3 />,
+        <SiBootstrap />,
         <DiNodejs />,
         <DiReact />,
         <SiRedux />,
@@ -78,7 +81,6 @@ function Techstack() {
         <SiSpring />,
         <SiSpringboot />,
         <SiScikitlearn />,
-        <SiQiskit />,
         <SiPytorch />,
         <DiSpark />,
         <DiRust />,
@@ -89,7 +91,11 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons" key={index}>
           {tool}
           <div className="tech-icon-hover-info">
-            <span>{toolNameMap[tool.type.name]}</span>
+            <span
+              style={{ color: `${dark ? '#ffffff' : '#24292e'}` }}
+            >
+              {toolNameMap[tool.type.name]}
+            </span>
           </div>
         </Col>
       ))}
