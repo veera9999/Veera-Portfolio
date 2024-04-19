@@ -7,6 +7,7 @@ import Aboutcard from './AboutCard';
 import laptopImg from '../../assets/about.svg';
 import Toolstack from './Toolstack';
 import description from '../description';
+import Education from '../Education/Education';
 
 function About() {
   return (
@@ -36,6 +37,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <Education />
         <div style={{ paddingTop: '300px' }}>
           <h1 className="project-heading">
             <strong className="green">

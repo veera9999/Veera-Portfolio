@@ -12,6 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from 'react-icons/ai';
+import { PiStudentFill } from 'react-icons/pi';
 import { MdWorkHistory } from 'react-icons/md';
 import { IoMdContact } from 'react-icons/io';
 import { useThemeContext } from '../hooks/themeHook';
@@ -80,6 +81,16 @@ function NavBar() {
             >
               <AiOutlineUser style={{ marginBottom: '3px' }} />{' '}
               {description.About}
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="#"
+              onClick={() => scrollToSection('education')}
+            >
+              <PiStudentFill style={{ marginBottom: '3px' }} />{' '}
+              Education
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>

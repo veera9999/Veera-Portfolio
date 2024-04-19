@@ -46,7 +46,7 @@ function Home() {
               <div
                 style={{
                   position: 'relative',
-                  paddingTop: '80px',
+                  paddingTop: '120px',
                   bottom: '20px',
                   left: '60px',
                   zIndex: 1,
@@ -58,7 +58,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingTop: 150 }}>
+            <Col md={5} style={{ paddingTop: '120px' }}>
               <img
                 src={homeLogo}
                 alt="home pic"
