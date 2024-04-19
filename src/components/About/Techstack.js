@@ -57,7 +57,7 @@ function Techstack() {
     SiRedux: 'Redux',
     SiWebpack: 'Webpack',
     SiBabel: 'Babel',
-    SiBootstrap: 'Boottrap',
+    SiBootstrap: 'Bootstrap',
   };
 
   return (
@@ -91,11 +91,7 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons" key={index}>
           {tool}
           <div className="tech-icon-hover-info">
-            <span
-              style={{ color: `${dark ? '#ffffff' : '#24292e'}` }}
-            >
-              {toolNameMap[tool.type.name]}
-            </span>
+            <span>{toolNameMap[tool.type.name]}</span>
           </div>
         </Col>
       ))}
