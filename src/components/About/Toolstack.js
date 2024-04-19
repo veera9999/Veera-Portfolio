@@ -2,37 +2,63 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import {
   SiLinux,
-  SiMicrosoftazure,
   SiAmazonaws,
-  SiVim,
   SiDocker,
   SiGit,
   SiJupyter,
   SiGooglecolab,
+  SiApachetomcat,
+  SiVercel,
+  SiGithub,
+  SiJira,
+  SiPostman,
+  SiSwagger,
+  SiAmazonrds,
+  SiMongodb,
+  SiOracle,
+  SiMysql,
 } from 'react-icons/si';
-
+import { BiLogoPostgresql } from 'react-icons/bi';
 function Toolstack() {
   const toolNameMap = {
     SiLinux: 'Linux',
     SiGit: 'Git',
-    SiMicrosoftazure: 'Microsoft Azure',
     SiAmazonaws: 'Amazon AWS',
-    SiVim: 'Vim',
     SiDocker: 'Docker',
     SiJupyter: 'Jupyter',
     SiGooglecolab: 'Google Colab',
+    SiApachetomcat: 'Apache Tomcat',
+    SiVercel: 'Vercel',
+    SiGithub: 'Github',
+    SiJira: 'Jira',
+    SiPostman: 'Postman',
+    SiSwagger: 'Swagger',
+    SiAmazonrds: 'Amazon RDS',
+    SiMongodb: 'MongoDB',
+    SiOracle: 'Oracle',
+    SiMysql: 'MySQL',
+    BiLogoPostgresql: 'postgreSQL',
   };
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       {[
         <SiLinux />,
         <SiGit />,
-        <SiMicrosoftazure />,
         <SiAmazonaws />,
-        <SiVim />,
+        <SiGithub />,
         <SiDocker />,
         <SiJupyter />,
         <SiGooglecolab />,
+        <SiApachetomcat />,
+        <SiVercel />,
+        <SiJira />,
+        <SiPostman />,
+        <SiSwagger />,
+        <SiAmazonrds />,
+        <SiMongodb />,
+        <SiOracle />,
+        <BiLogoPostgresql />,
+        <SiMysql />,
       ].map((tool, index) => (
         <Col xs={4} md={2} className="tech-icons" key={index}>
           {tool}

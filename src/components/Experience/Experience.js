@@ -69,32 +69,50 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                <BsPatchCheckFill /> Developed applications with Core
-                Java, Maven, Spring MVC, implementing multi-threading
-                and RESTful APIs.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                {''}Developed applications with Core Java, Maven,
+                Spring MVC, implementing multi-threading and RESTful
+                APIs.
               </p>
               <p>
-                • Tested applications for end-to-end test cases with
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Tested applications for end-to-end test cases with
                 JUnit and Swagger and resolved over 100 bugs.
               </p>
               <p>
-                • Elevated application security by implementing user
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Elevated application security by implementing user
                 authentication using Spring Security & JWT, resulting
                 in 2X security.
               </p>
               <p>
-                • Implemented mapping of relational databases to Java
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Implemented mapping of relational databases to Java
                 objects with Ibatis and Hibernate.
               </p>
               <p>
-                • Leveraged AWS EC2, S3, API Gateway and RDS for
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Leveraged AWS EC2, S3, API Gateway and RDS for
                 scalable application deployment, reducing deployment
                 time by 40%.
               </p>
               <p>
-                • Streamlined CI/CD process using AWS Code Pipeline
-                and Git Desktop, enabling faster time-to-market for
-                new features.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Streamlined CI/CD process using AWS Code Pipeline and
+                Git Desktop, enabling faster time-to-market for new
+                features.
               </p>
             </div>
           </VerticalTimelineElement>
@@ -143,28 +161,43 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                • Leveraged AWS Athena, Redshift and Excel (macros and
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Leveraged AWS Athena, Redshift and Excel (macros and
                 query functions) to analyze large datasets (100K+
                 records), providing strategic insights.
               </p>
               <p>
-                • Generated regular analysis reports for facilitating
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Generated regular analysis reports for facilitating
                 key business decisions while working in collections
                 team.
               </p>
               <p>
-                • Performed data preprocessing and cleaning with
-                Python and R, enhancing data quality by 25%.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Performed data preprocessing and cleaning with Python
+                and R, enhancing data quality by 25%.
               </p>
               <p>
-                • Built Tableau dashboards for visualization & KPI
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Built Tableau dashboards for visualization & KPI
                 metrics evaluation, leading to 20% increase in debt
                 recovery.
               </p>
               <p>
-                • Collaborated with teams to develop and refine
-                machine learning models with Python in AWS Sage Maker
-                to predict customer bounce rates and loan defaults,
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Collaborated with teams to develop and refine machine
+                learning models with Python in AWS Sage Maker to
+                predict customer bounce rates and loan defaults,
                 increasing prediction accuracy from 74% to 85%.
               </p>
             </div>
@@ -214,29 +247,47 @@ function Experience() {
             <hr />
             <div className="experience-description">
               <p>
-                • XNerves is a student body Tecnical Club that mainly
-                focuses on developing it's members coding abilities
-                through various methods.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />
+                {'  '}
+                XNerves is a student-led technical club dedicated to
+                nurturing and enhancing the coding proficiency of its
+                members through a multifaceted approach.
               </p>
               <p>
-                • Generated regular analysis reports for facilitating
-                key business decisions while working in collections
-                team.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Conducted comprehensive technical workshops and guest
+                lectures to impart valuable knowledge and foster the
+                skill development of students.
               </p>
               <p>
-                • Performed data preprocessing and cleaning with
-                Python and R, enhancing data quality by 25%.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Organized coding hackathons that promote healthy
+                competition among participants, cultivating a spirit
+                of collaboration and innovation.
               </p>
               <p>
-                • Built Tableau dashboards for visualization & KPI
-                metrics evaluation, leading to 20% increase in debt
-                recovery.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Fostered a vibrant and inclusive community of
+                like-minded individuals, where knowledge-sharing,
+                peer-to-peer learning, and mentorship opportunities
+                are actively encouraged.
               </p>
               <p>
-                • Collaborated with teams to develop and refine
-                machine learning models with Python in AWS Sage Maker
-                to predict customer bounce rates and loan defaults,
-                increasing prediction accuracy from 74% to 85%.
+                <BsPatchCheckFill
+                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                />{' '}
+                Organized networking events, facilitating connections
+                between students and professionals, and providing a
+                platform for members to gain insights into diverse
+                career paths and industries.
               </p>
             </div>
           </VerticalTimelineElement>
