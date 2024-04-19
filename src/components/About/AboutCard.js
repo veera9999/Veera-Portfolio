@@ -32,7 +32,7 @@ function AboutCard() {
               <FaHandPointRight /> Web Development
             </li>
             <li className="about-activity">
-              <FaHandPointRight /> System Design and Archirtecture
+              <FaHandPointRight /> System Design and Architecture
             </li>
             <li className="about-activity">
               <FaHandPointRight /> Generative AI and LLM's

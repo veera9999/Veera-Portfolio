@@ -36,7 +36,7 @@ function Projects() {
             <ProjectCard
               imgPath={bestbuy}
               title="E-commerce Website"
-              description={descriptions.Proj1}
+              description={descriptions.Proj6}
               link="https://github.com/veera9999/BestBuy2"
             />
           </Col>

@@ -17,7 +17,7 @@ const description = {
   CompanyLocation: '',
   IHoldDegree1: "I hold a Master's degree in",
   School1:
-    "from Uniersity of Illinois at Chicago and Bachelor's degree in ",
+    "from University of Illinois at Chicago and Bachelor's degree in ",
   And: 'and',
   School2: 'from Lovely Professional University',
   Interests: 'My professional interests include:',
