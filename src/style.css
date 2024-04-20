@@ -7,7 +7,6 @@ html {
   flex-flow: column nowrap!important;
   display: flex!important;
   height: 100%!important;
- 
 }
 
 .light {
@@ -24,7 +23,7 @@ html {
   --green-1: #16aaeece;
   --green-2: #f16d15dc;
   --green-3: #0ad0f3;
-  --green-6: #1478fa;
+  --green-6: #3eb1ce;
   --imp-text-color: var(--green-3); 
 }
 
