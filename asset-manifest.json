@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.13e3e11c.css",
-    "main.js": "/Veera-Portfolio/static/js/main.83c65624.js",
+    "main.css": "/Veera-Portfolio/static/css/main.9b1c9a3b.css",
+    "main.js": "/Veera-Portfolio/static/js/main.d1aad42b.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
-    "static/media/home4.svg": "/Veera-Portfolio/static/media/home4.09cbb13da05d797270704928eb951ca3.svg",
+    "static/media/home6.svg": "/Veera-Portfolio/static/media/home6.bf12469a2ee8c22da6f6e1cac5b17b80.svg",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
     "static/media/BestBuy.jpg": "/Veera-Portfolio/static/media/BestBuy.e0695b6608ced9d67d25.jpg",
     "static/media/logolight.png": "/Veera-Portfolio/static/media/logolight.8285de2a3bbadb7814b2.png",
@@ -46,12 +46,12 @@
     "static/media/django.svg": "/Veera-Portfolio/static/media/django.c53d7b212d9f61013c22718e7ea29987.svg",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/oracle.svg": "/Veera-Portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
-    "main.13e3e11c.css.map": "/Veera-Portfolio/static/css/main.13e3e11c.css.map",
-    "main.83c65624.js.map": "/Veera-Portfolio/static/js/main.83c65624.js.map",
+    "main.9b1c9a3b.css.map": "/Veera-Portfolio/static/css/main.9b1c9a3b.css.map",
+    "main.d1aad42b.js.map": "/Veera-Portfolio/static/js/main.d1aad42b.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13e3e11c.css",
-    "static/js/main.83c65624.js"
+    "static/css/main.9b1c9a3b.css",
+    "static/js/main.d1aad42b.js"
   ]
 }
