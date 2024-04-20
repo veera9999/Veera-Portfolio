@@ -31,7 +31,7 @@ html {
   --bg-color: #0d1117;
   --text-color: #ffffff;
   --experience-main: #037e40c4;
-   --project-card-hoverbg: #93e4e7;
+  --project-card-hoverbg: #93e4e7;
   --tech-icon-background: rgba(0, 0, 0, 0.8);
   --nav-active: #161b22; 
   --footer-background: #161b22;
@@ -634,8 +634,8 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 200px !important;
-  padding-bottom: 30px !important;
+  padding-top: 150px !important;
+  padding-bottom: 10px !important;
   color: var(--text-color) !important;
   
 }
@@ -652,9 +652,6 @@ button:focus {
   text-align: left !important;
   padding-left: 1px !important;
 }
-.about-card{
-  padding-left: 100px;
-}
 
 @media (max-width: 767px) {
   .about-img {
@@ -662,6 +659,9 @@ button:focus {
   }
   .about-card{
     padding-left: 0px !important;
+  }
+  .education-section{
+    padding-top: 50px !important;
   }
 }
 

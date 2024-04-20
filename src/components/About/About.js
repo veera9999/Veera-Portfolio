@@ -18,47 +18,39 @@ function About() {
     <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
-        <Container fluid className="about-card">
-          <Row style={{ padding: '10px' }}>
-            <Col
-              md={8}
-              sm={12}
+        <Row style={{ padding: '10px' }}>
+          <Col
+            md={7}
+            sm={12}
+            style={{
+              paddingTop: '30px',
+              paddingBottom: '50px',
+            }}
+          >
+            <h1
               style={{
-                paddingTop: '30px',
-                paddingBottom: '50px',
+                fontSize: '2.3em',
+                paddingBottom: '20px',
               }}
             >
-              <h1
-                style={{
-                  fontSize: '2.3em',
-                  paddingBottom: '20px',
-                }}
-              >
-                {description.AboutHeader}{' '}
-                <strong className="green">Me</strong>
-              </h1>
-              <div>
-                <Aboutcard />
-              </div>
-            </Col>
-            <Col
-              md={4}
-              sm={12}
-              style={{
-                paddingTop: '150px',
-                paddingBottom: '50px',
-                paddingLeft: '30px',
-              }}
-              className="about-img"
-            >
-              <img
-                src={laptopImg}
-                alt="about"
-                className="img-fluid"
-              />
-            </Col>
-          </Row>
-        </Container>
+              {description.AboutHeader}{' '}
+              <strong className="green">Me</strong>
+            </h1>
+            <div className="about-card">
+              <Aboutcard />
+            </div>
+          </Col>
+          <Col
+            md={5}
+            sm={12}
+            style={{
+              paddingTop: '150px',
+              paddingBottom: '20px',
+            }}
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
+          </Col>
+        </Row>
         <Education />
         <div style={{ paddingTop: '180px' }}>
           <h1 className="project-heading">
@@ -79,7 +71,7 @@ function About() {
         >
           <Techstack />
         </div>
-        <div style={{ paddingTop: '180px' }}>
+        <div style={{ paddingTop: '120px' }}>
           <h1 className="project-heading">
             <strong className="green">Tools</strong>{' '}
             {description.IUse}
