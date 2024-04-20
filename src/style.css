@@ -7,28 +7,32 @@ html {
   flex-flow: column nowrap!important;
   display: flex!important;
   height: 100%!important;
+  width: 100% !important;
 }
 
 .light {
   --bg-color: #ffffff;
   --text-color: #24292e;
-  --experience-main: #9f53d1;
+  --experience-main: #e27720;
   --tech-icon-background: rgb(255, 255, 255, 0.9);
   --nav-active: #f3f3f3;
+  --project-card-hoverbg: #d15353;
   --footer-background: transparent;
   --footer-social-icons: black;
-  --green-light: #f86b33;
-  --green-0: #d35f2a;
-  --green-1: #f55307;
-  --green-2: #f54500;
-  --green-3: #f74d23;
+  --green-light: #0bc1f8f8;
+  --green-0: #3796d4;
+  --green-1: #16aaeece;
+  --green-2: #f16d15dc;
+  --green-3: #0ad0f3;
+  --green-6: #1478fa;
   --imp-text-color: var(--green-3); 
 }
 
 .dark {
   --bg-color: #0d1117;
   --text-color: #ffffff;
-  --experience-main: #08a04f;
+  --experience-main: #037e40c4;
+   --project-card-hoverbg: #93e4e7;
   --tech-icon-background: rgba(0, 0, 0, 0.8);
   --nav-active: #161b22; 
   --footer-background: #161b22;
@@ -541,8 +545,6 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.01) translate(-10px, -20px) !important;
   overflow: hidden !important;
-  background-color: #0d1117 !important;
-  color: #ffffff !important;
   backdrop-filter: blur(0px) !important; 
   box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }
@@ -636,6 +638,32 @@ button:focus {
   padding-top: 200px !important;
   padding-bottom: 30px !important;
   color: var(--text-color) !important;
+  
+}
+
+.quote-card-view {
+  color: var(--text-color) !important;
+  background-color: inherit !important;
+  border: none !important;
+}
+
+
+.about-activity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+.about-card{
+  padding-left: 100px;
+}
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
+  .about-card{
+    padding-left: 0px !important;
+  }
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -687,7 +715,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  color: var(--green-3) !important;
+  color: var(--green-2) !important;
   border: 2.2px solid var(--green-3) !important;
 }
 
@@ -696,26 +724,6 @@ button:focus {
   line-height: 1.6 !important;
 }
 
-
-.quote-card-view {
-  border: none !important;
-  color: var(--text-color) !important;
-  background-color: transparent !important;
-  
-}
-
-
-.about-activity {
-  list-style: none !important;
-  text-align: left !important;
-  padding-left: 1px !important;
-}
-
-@media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
-  }
-}
 
 .animate-like {
   animation-name: likeAnimation;

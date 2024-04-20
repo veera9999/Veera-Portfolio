@@ -3,7 +3,9 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { BiLinkExternal } from 'react-icons/bi';
 import description from '../description';
+import { useThemeContext } from '../../hooks/themeHook';
 function ProjectCards(props) {
+  const { dark } = useThemeContext();
   return (
     <Card className="project-card-view">
       <Card.Img
@@ -15,7 +17,9 @@ function ProjectCards(props) {
       <div className="card-body-wrapper">
         <Card.Body>
           <Card.Title>
-            <span className="green">{props.title}</span>
+            <span style={{ color: dark ? '#39d353' : '#e27720' }}>
+              {props.title}
+            </span>
           </Card.Title>
           <Card.Text style={{ textAlign: 'justify' }}>
             {props.description}

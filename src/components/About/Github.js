@@ -22,10 +22,10 @@ function Github() {
     : // colors for the white theme
       {
         background: 'transparent',
-        level4: '#2c027a',
-        level3: '#4a128a',
-        level2: '#6002ad',
-        level1: '#876df7',
+        level4: '#1478fa',
+        level3: '#04a6d8',
+        level2: '#64b1c9',
+        level1: '#82bfd1',
         level0: '#ebedf0',
       };
 

@@ -17,27 +17,36 @@ function About() {
   return (
     <Container fluid className="about-section" id="about">
       <Particle />
-      <Container>
+      <Container fluid>
         <Row style={{ padding: '10px' }}>
           <Col
-            md={7}
+            md={8}
+            sm={12}
             style={{
               paddingTop: '30px',
               paddingBottom: '50px',
             }}
           >
-            <h1 style={{ fontSize: '2.3em', paddingBottom: '20px' }}>
+            <h1
+              style={{
+                fontSize: '2.3em',
+                paddingBottom: '20px',
+              }}
+            >
               {description.AboutHeader}{' '}
               <strong className="green">Me</strong>
             </h1>
-            <Aboutcard />
+            <div className="about-card">
+              <Aboutcard />
+            </div>
           </Col>
           <Col
-            md={5}
+            md={4}
+            sm={12}
             style={{
-              paddingTop: '225px',
+              paddingTop: '150px',
               paddingBottom: '50px',
-              justifyContent: 'f',
+              paddingLeft: '30px',
             }}
             className="about-img"
           >
@@ -45,7 +54,7 @@ function About() {
           </Col>
         </Row>
         <Education />
-        <div style={{ paddingTop: '300px' }}>
+        <div style={{ paddingTop: '180px' }}>
           <h1 className="project-heading">
             <strong className="green">
               {description.Languages}{' '}
@@ -64,7 +73,7 @@ function About() {
         >
           <Techstack />
         </div>
-        <div style={{ paddingTop: '300px' }}>
+        <div style={{ paddingTop: '180px' }}>
           <h1 className="project-heading">
             <strong className="green">Tools</strong>{' '}
             {description.IUse}
@@ -73,7 +82,7 @@ function About() {
         <div
           style={{
             paddingTop: '30px',
-            paddingBottom: '200px',
+            paddingBottom: '100px',
           }}
         >
           <Toolstack />

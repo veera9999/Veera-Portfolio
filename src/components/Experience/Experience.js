@@ -46,19 +46,19 @@ function Experience() {
             contentStyle={{
               background: 'inherit',
               color: dark ? '#39d353' : '#6002ad',
-              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
+              border: `3px solid ${dark ? '#006d32' : '#0ad0f3'}`,
               borderRadius: '20px',
               padding: '1rem',
               paddingTop: '1em',
             }}
             contentArrowStyle={{
               borderRight: `15px solid ${
-                dark ? '#006d32' : '#9f53d1'
+                dark ? '#006d32' : '#0ad0f3'
               }`,
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: `${dark ? '#006d32' : '#9f53d1'}`,
+              background: `${dark ? '#006d32' : '#0ad0f3'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -85,7 +85,7 @@ function Experience() {
             <div className="experience-description">
               <p>
                 <FaJava
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 {''}Developed applications with Core Java, Maven,
                 Spring MVC, implementing multi-threading and RESTful
@@ -93,7 +93,7 @@ function Experience() {
               </p>
               <p>
                 <SiSwagger
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />
                 {'  '}
                 Tested applications for end-to-end test cases with
@@ -101,7 +101,7 @@ function Experience() {
               </p>
               <p>
                 <SiSpringsecurity
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Elevated application security by implementing user
                 authentication using Spring Security & JWT, resulting
@@ -109,14 +109,14 @@ function Experience() {
               </p>
               <p>
                 <SiHibernate
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Implemented mapping of relational databases to Java
                 objects with Ibatis and Hibernate.
               </p>
               <p>
                 <SiAmazonaws
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Leveraged AWS EC2, S3, API Gateway and RDS for
                 scalable application deployment, reducing deployment
@@ -124,7 +124,7 @@ function Experience() {
               </p>
               <p>
                 <SiGit
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Streamlined CI/CD process using AWS Code Pipeline and
                 Git Desktop, enabling faster time-to-market for new
@@ -137,19 +137,19 @@ function Experience() {
             contentStyle={{
               background: 'inherit',
               color: dark ? '#39d353' : '#6002ad',
-              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
+              border: `3px solid ${dark ? '#006d32' : '#0ad0f3'}`,
               borderRadius: '20px',
               padding: '1rem',
               paddingTop: '1em',
             }}
             contentArrowStyle={{
               borderRight: `15px solid ${
-                dark ? '#006d32' : '#9f53d1'
+                dark ? '#006d32' : '#0ad0f3'
               }`,
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: `${dark ? '#006d32' : '#9f53d1'}`,
+              background: `${dark ? '#006d32' : '#0ad0f3'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -176,7 +176,7 @@ function Experience() {
             <div className="experience-description">
               <p>
                 <SiMicrosoftexcel
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Leveraged AWS Athena, Redshift and Excel (macros and
                 query functions) to analyze large datasets (100K+
@@ -184,7 +184,7 @@ function Experience() {
               </p>
               <p>
                 <HiDocumentReport
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Generated regular analysis reports for facilitating
                 key business decisions while working in collections
@@ -193,14 +193,14 @@ function Experience() {
               <p>
                 <SiPython
                   hCheckFill
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Performed data preprocessing and cleaning with Python
                 and R, enhancing data quality by 25%.
               </p>
               <p>
                 <SiTableau
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Built Tableau dashboards for visualization & KPI
                 metrics evaluation, leading to 20% increase in debt
@@ -208,7 +208,7 @@ function Experience() {
               </p>
               <p>
                 <GiArtificialIntelligence
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Collaborated with teams to develop and refine machine
                 learning models with Python in AWS Sage Maker to
@@ -222,19 +222,19 @@ function Experience() {
             contentStyle={{
               background: 'inherit',
               color: dark ? '#39d353' : '#6002ad',
-              border: `3px solid ${dark ? '#006d32' : '#9f53d1'}`,
+              border: `3px solid ${dark ? '#006d32' : '#0ad0f3'}`,
               borderRadius: '20px',
               padding: '1rem',
               paddingTop: '1em',
             }}
             contentArrowStyle={{
               borderRight: `15px solid ${
-                dark ? '#006d32' : '#9f53d1'
+                dark ? '#006d32' : '#0ad0f3'
               }`,
             }}
             date="September 2021 – July 2022"
             iconStyle={{
-              background: `${dark ? '#006d32' : '#9f53d1'}`,
+              background: `${dark ? '#006d32' : '#0ad0f3'}`,
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
@@ -261,7 +261,7 @@ function Experience() {
             <div className="experience-description">
               <p>
                 <PiStudentFill
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />
                 {'  '}
                 XNerves is a student-led technical club dedicated to
@@ -270,7 +270,7 @@ function Experience() {
               </p>
               <p>
                 <GrWorkshop
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Conducted comprehensive technical workshops and guest
                 lectures to impart valuable knowledge and foster the
@@ -278,7 +278,7 @@ function Experience() {
               </p>
               <p>
                 <SiHackerrank
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Organized coding hackathons that promote healthy
                 competition among participants, cultivating a spirit
@@ -286,7 +286,7 @@ function Experience() {
               </p>
               <p>
                 <VscOrganization
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Fostered a vibrant and inclusive community of
                 like-minded individuals, where knowledge-sharing,
@@ -295,7 +295,7 @@ function Experience() {
               </p>
               <p>
                 <BsPeopleFill
-                  style={{ color: dark ? '#26a641' : '#6002ad' }}
+                  style={{ color: dark ? '#26a641' : '#e27720' }}
                 />{' '}
                 Organized networking events, facilitating connections
                 between students and professionals, and providing a

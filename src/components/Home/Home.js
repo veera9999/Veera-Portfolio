@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import home5 from '../../assets/home5.svg';
-import home4 from '../../assets/home4.svg';
+import home6 from '../../assets/home6.svg';
 import About from '../About/About';
 import Particle from '../Particle';
 import Type from './Type';
@@ -14,7 +14,7 @@ function Home() {
   const resumeLink = '../../assets/Veera_resume_DD.pdf';
   const { dark } = useThemeContext();
 
-  const homeLogo = dark ? home5 : home4;
+  const homeLogo = dark ? home5 : home6;
   const handleResumeClick = () => {
     window.open(resumeLink, '_blank');
   };
