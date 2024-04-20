@@ -4,6 +4,18 @@ const description = {
   Contact: 'Contact',
   Home: 'Home',
   About: 'About',
+  AboutDescription1:
+    "I'm  your friendly neighborhood aspiring tech pro(or at least, someone who doesn't want to be relegated to filing paperwork like a background character in a movie). I am the full-stack dev equivalent of Tony Stark 🤖- a self-proclaimed billionaire🤑 genius, philanthropist, minus the billions and philanthrophy(especially the billions🥹).",
+  AboutDescription2:
+    "While my skills are robust enough to piece together functional web apps, the code underneath is often a result of my dedication, passion , enthusiasm to learn and maybe a few Stack Overflow searches at 3 AM (don't judge, we've all been there 👀).",
+  AboutDescription3:
+    'I thrive in collaborative environments, mostly because I can learn from others while adding value through my passion for continuous learning and staying up-to-date on industry trends but also I need others to constantly extinguish the fires I inadvertently start while chasing shiny new tech trends(Just joking ...am I?🙃).',
+  AboutDescription4:
+    "I may not be an expert in everything, but I make up for it with ingenuity, enthusiasm for learning, and a willingness to take on any challenge - even if I accidentally trigger the next production apocalypse along the way🐼. Just don't fact check my self-proclaimed genius, billionare playboy descriptors too closely.",
+  AboutDescription5:
+    'After staring at lines of code all day and questioning all my life choices, I like to unwind with some real high-brow hobbies.',
+  AboutDescription6:
+    'When I\'m not busy trying to debug the chaos that ensues from importing 17 new dependencies just to display a simple "Hello World,"  you can find me zoning out to bizarre Japanese Anime(Not Cartoons😑) where the fight scenes last longer than the actual plot. But I balance those whimsical anime vibes with some emo music angst',
   Greeting: 'Hi There!',
   Im: "I'm",
   Typer1: 'Full Stack Developer',

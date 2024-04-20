@@ -4,26 +4,29 @@ import Particle from '../Particle';
 import Github from './Github';
 import Techstack from './Techstack';
 import Aboutcard from './AboutCard';
-import laptopImg from '../../assets/about.svg';
+import about from '../../assets/about.svg';
+import about5 from '../../assets/about5.svg';
 import Toolstack from './Toolstack';
 import description from '../description';
 import Education from '../Education/Education';
+import { useThemeContext } from '../../hooks/themeHook';
 
 function About() {
+  const { dark } = useThemeContext();
+  const laptopImg = dark ? about : about5;
   return (
     <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: 'center', padding: '10px' }}>
+        <Row style={{ padding: '10px' }}>
           <Col
             md={7}
             style={{
-              justifyContent: 'center',
               paddingTop: '30px',
               paddingBottom: '50px',
             }}
           >
-            <h1 style={{ fontSize: '2.1em', paddingBottom: '20px' }}>
+            <h1 style={{ fontSize: '2.3em', paddingBottom: '20px' }}>
               {description.AboutHeader}{' '}
               <strong className="green">Me</strong>
             </h1>
@@ -31,7 +34,11 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: '150px', paddingBottom: '50px' }}
+            style={{
+              paddingTop: '225px',
+              paddingBottom: '50px',
+              justifyContent: 'f',
+            }}
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />

@@ -8,21 +8,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: 'justify' }}>
-            {description.Greeting} {description.Im}{' '}
-            <span className="green">Veera Palla</span>,{' '}
-            {description.MLE} {description.IWorkAt}{' '}
-            <span className="green">{description.Company}</span>{' '}
-            {description.CompanyLocation}.
+            {description.AboutDescription1}
             <br />
-            {description.IHoldDegree1}{' '}
-            <span className="green">
-              Management Information Systems
-            </span>{' '}
-            {description.School1} {description.And}{' '}
-            <span className="green">
-              Computer Science and Engineering
-            </span>{' '}
-            {description.School2}.
+            <br />
+            {description.AboutDescription2}
+            <br />
+            <br />
+            {description.AboutDescription3}
+            <br />
+            <br />
+            {description.AboutDescription4}
+            <br />
+            <br />
+            {description.AboutDescription5}
+            <br />
+            <br />
+            {description.AboutDescription6}
             <br />
             <br />
             {description.Interests}
