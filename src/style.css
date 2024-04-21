@@ -883,11 +883,11 @@ button:focus {
   background: transparent;
   backdrop-filter: blur(5px); 
   padding: 0.5rem;
-  border: 2px solid var(--green-1);
+  border: 2px solid var(--green-2);
   border-radius: 1rem;
   margin-top: 1rem;
-  width: 20rem;
-  color: var(--green-2);
+  width: 18rem;
+  color: var(--green-1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
@@ -911,6 +911,9 @@ button:focus {
   display: inline-block;
   font-size: 0.8rem;
   color: var(--green-light);
+}
+.contact__option a:hover{
+  color: var(--green-2);
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -961,7 +964,7 @@ button:focus {
 .flip-card-front {
   background-color: transparent;
   color: var(--text-color);
-  
+  border: 3px var(--green-3) solid;
   backdrop-filter: blur(5px);
   border-radius: 2px;
   padding: 20px;
@@ -974,6 +977,6 @@ button:focus {
   color: var(--text-color);
   transform: rotateY(180deg);
   border-radius: 10px;
-  border: 3px var(--green-2) solid;
+  border: 3px var(--green1) solid;
   box-shadow: 0 4px 4px 5px var(--green-2) !important;
 }

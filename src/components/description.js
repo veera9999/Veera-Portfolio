@@ -9,7 +9,7 @@ const description = {
   AboutDescription2:
     "While my skills are robust enough to piece together functional web apps, the code underneath is often a result of my dedication, passion , enthusiasm to learn and maybe a few Stack Overflow searches at 3 AM (don't judge, we've all been there 👀). I really enjoy working in collaborative environments, mostly because I can learn from others while adding value to the team but also I need others to constantly extinguish the fires I inadvertently start while chasing shiny new tech trends(Just joking ...am I?🙃).",
   AboutDescription3:
-    'After staring at lines of code all day and questioning all my life choices and When I\'m not busy trying to debug the chaos that ensues from importing 17 new dependencies just to display a simple "Hello World,"  you can find me zoning out to bizarre Japanese Anime (Not Cartoons😑) where the fight scenes last longer than the actual plot. But I balance those whimsical anime vibes with some lofi music.',
+    'After staring at lines of code all day and questioning all my life choices, you can find me zoning out to bizarre Japanese Anime, where the fight scenes last longer than the actual plot. But I balance those whimsical anime vibes with some lofi music.',
   Greeting: 'Hi There!',
   Im: "I'm",
   Typer1: 'Full Stack Developer',
