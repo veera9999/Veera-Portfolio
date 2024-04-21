@@ -17,6 +17,7 @@ import { PiStudentFill } from 'react-icons/pi';
 import { GrWorkshop } from 'react-icons/gr';
 import { VscOrganization } from 'react-icons/vsc';
 import { BsPeopleFill } from 'react-icons/bs';
+
 import {
   SiSwagger,
   SiSpringsecurity,
@@ -27,6 +28,7 @@ import {
   SiPython,
   SiTableau,
   SiHackerrank,
+  SiYoutubeshorts,
 } from 'react-icons/si';
 function Experience() {
   const { dark } = useThemeContext();
@@ -244,7 +246,7 @@ function Experience() {
             }}
             icon={
               <span>
-                <MdDataExploration />
+                <SiYoutubeshorts />
               </span>
             }
           >

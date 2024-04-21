@@ -1,9 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { FaSquareXTwitter } from 'react-icons/fa6';
+/*import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';*/
 import descriptions from '../description';
 import emailjs from '@emailjs/browser';
+import { MdOutlineEmail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -40,7 +43,56 @@ function Contact() {
           <strong className="green"> Touch </strong>
         </h1>
         <Row className="contact-main">
-          <Col md={6} sm={12}>
+          <Col md={5} className="d-flex justify-content-center">
+            <Container>
+              <Row>
+                <Col ms={12}>
+                  <article className="contact__option">
+                    <MdOutlineEmail className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Email</h5>
+                    <h5>veera.palla919@gmail.com</h5>
+                    <a
+                      href="mailto:veera.palla919@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+                <Col md={12}>
+                  <article className="contact__option">
+                    <BsWhatsapp className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Whatsapp</h5>
+                    <h5>+1 (847)542 6690</h5>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=8475426690"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+                <Col md={12}>
+                  <article className="contact__option">
+                    <RiMessengerLine className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Messenger</h5>
+                    <h5>veera Palla</h5>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=8475426690"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+              </Row>
+            </Container>
+          </Col>
+
+          <Col md={6} sm={12} className="form-body">
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group controlId="formName">
                 <Form.Control
@@ -85,43 +137,9 @@ function Contact() {
                 value="Send"
                 style={{ padding: '10px' }}
               >
-                Submit
+                Send Message
               </Button>
             </Form>
-          </Col>
-
-          <Col md={4} className="contact-icons">
-            <Container>
-              <Row>
-                <Col>
-                  <a
-                    href="https://www.linkedin.com/in/veera-palla-6097071b8/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaLinkedin />
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://github.com/veera9999/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaGithub />
-                  </a>
-                </Col>
-                <Col>
-                  <a
-                    href="https://twitter.com/VeeraPalla1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <FaSquareXTwitter />
-                  </a>
-                </Col>
-              </Row>
-            </Container>
           </Col>
         </Row>
       </Container>

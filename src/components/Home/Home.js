@@ -10,10 +10,15 @@ import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
 import { useThemeContext } from '../../hooks/themeHook';
+
 function Home() {
   const { dark } = useThemeContext();
 
   const homeLogo = dark ? home5 : home6;
+
+  const handleResumeClick = () => {
+    window.open('../../assets/Veera_resume_DD.pdf', '_blank');
+  };
 
   return (
     <section>
@@ -41,17 +46,14 @@ function Home() {
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
-              <div
-                style={{
-                  position: 'relative',
-                  paddingTop: '120px',
-                  bottom: '20px',
-                  left: '60px',
-                  zIndex: 1,
-                }}
+
+              <Button
+                className="resume-button"
+                variant="primary"
+                onClick={handleResumeClick}
               >
-                <Button variant="primary">View Resume</Button>
-              </div>
+                View Resume
+              </Button>
             </Col>
 
             <Col md={5} style={{ paddingTop: '120px' }}>

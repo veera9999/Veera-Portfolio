@@ -445,9 +445,11 @@ button:focus {
 
 .resume-button{
   position: relative;
-  bottom: 20px;
-  left: 20px;
-  z-index: 1;
+  padding-top: 120px;
+  bottom: 20px !important;
+  left: 60px !important;
+  z-index: 1 !important;
+  color: var(--text-color) !important;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -579,7 +581,7 @@ button:focus {
 .btn-primary:hover {
   color: white !important;
   background-color: var(--green-2) !important;
-  border-color: var(--green-2) !important;
+  border-color: var(--green-0) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -853,10 +855,10 @@ button:focus {
   border-color: var(--green-3);
 }
 
-.contact-icons {
+/*.contact-icons {
   display: flex;
   padding: 10px;
-  padding-top: 50px;
+  padding-top: 10px;
   justify-content: flex-end;
   align-items: center;
   font-size: 2.5rem;
@@ -870,11 +872,45 @@ button:focus {
 
 .contact-icons a:hover {
   color: var(--green-0);
+}*/
+.form-body{
+  padding-top: 50px;
 }
 .contact-main{
   padding-right: 1 rem ;
 }
+.contact__option {
+  background: transparent;
+  backdrop-filter: blur(5px); 
+  padding: 0.5rem;
+  border: 2px solid var(--green-1);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  width: 20rem;
+  color: var(--green-light);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
 
+.contact__option:hover {
+  background: transparent;
+  border-color: var(--green-light);
+  box-shadow: 0 4px 8px var(--green-1);
+}
+
+.contact__option-icon {
+  font-size: 2.5rem;
+  margin: 0.2rem;
+  color: var(--green-light);
+}
+
+.contact__option a {
+  margin-top: 0.8rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--green-light);
+}
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*********************************************************** Education ***********************************************************************************************/
