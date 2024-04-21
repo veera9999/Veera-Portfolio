@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.9d874a99.css",
-    "main.js": "/Veera-Portfolio/static/js/main.e9c04774.js",
+    "main.css": "/Veera-Portfolio/static/css/main.338e8675.css",
+    "main.js": "/Veera-Portfolio/static/js/main.6b7f12b9.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/home6.svg": "/Veera-Portfolio/static/media/home6.bf12469a2ee8c22da6f6e1cac5b17b80.svg",
@@ -20,10 +20,10 @@
     "static/media/postgresql.svg": "/Veera-Portfolio/static/media/postgresql.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
     "static/media/docker.svg": "/Veera-Portfolio/static/media/docker.d67b7e2a4a5f41d8526c6377e21458df.svg",
     "static/media/postman.svg": "/Veera-Portfolio/static/media/postman.c74cd48d00339ba03ff2e6ed3f9d0c4d.svg",
-    "static/media/lpudarklogo.svg": "/Veera-Portfolio/static/media/lpudarklogo.c157559bcfef0f506cbcfb66e40746ed.svg",
+    "static/media/lpudarklogo.svg": "/Veera-Portfolio/static/media/lpudarklogo.b00ad3a029685e36cb4f7b776affc96b.svg",
     "static/media/flask.svg": "/Veera-Portfolio/static/media/flask.2270130694a2832231629cb67b63787d.svg",
     "static/media/tomcat.svg": "/Veera-Portfolio/static/media/tomcat.446e344c9acc281013678abd5297bb21.svg",
-    "static/media/uicdarklogo.svg": "/Veera-Portfolio/static/media/uicdarklogo.ea266fbc476afe7e043c88efc1bd8ae2.svg",
+    "static/media/uicdarklogo.svg": "/Veera-Portfolio/static/media/uicdarklogo.dd4c39858ad83502911de5528100c446.svg",
     "static/media/uiclightlogo.svg": "/Veera-Portfolio/static/media/uiclightlogo.83b4cca821d4e1e7d97b643466babf99.svg",
     "static/media/mysql-icon.svg": "/Veera-Portfolio/static/media/mysql-icon.e5a509a5d3ca7443ae6ccf379181381d.svg",
     "static/media/linux.svg": "/Veera-Portfolio/static/media/linux.173eb080c139dc7752f3a2f30c8adcbf.svg",
@@ -50,12 +50,12 @@
     "static/media/django.svg": "/Veera-Portfolio/static/media/django.c53d7b212d9f61013c22718e7ea29987.svg",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/oracle.svg": "/Veera-Portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
-    "main.9d874a99.css.map": "/Veera-Portfolio/static/css/main.9d874a99.css.map",
-    "main.e9c04774.js.map": "/Veera-Portfolio/static/js/main.e9c04774.js.map",
+    "main.338e8675.css.map": "/Veera-Portfolio/static/css/main.338e8675.css.map",
+    "main.6b7f12b9.js.map": "/Veera-Portfolio/static/js/main.6b7f12b9.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d874a99.css",
-    "static/js/main.e9c04774.js"
+    "static/css/main.338e8675.css",
+    "static/js/main.6b7f12b9.js"
   ]
 }
