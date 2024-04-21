@@ -1,9 +1,8 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Col } from 'react-bootstrap';
-import { useThemeContext } from '../../hooks/themeHook';
+
 function EducationFlipCard(props) {
-  const { dark } = useThemeContext();
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
