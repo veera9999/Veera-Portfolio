@@ -16,7 +16,7 @@ html {
   --experience-main: #e27720;
   --tech-icon-background: rgb(255, 255, 255, 0.9);
   --nav-active: #f3f3f3;
-  --icon-color: #778899;
+  --icon-color: #0487aff8;
   --project-card-hoverbg: #d15353;
   --footer-background: transparent;
   --footer-social-icons: black;
@@ -841,9 +841,9 @@ button:focus {
 .contact-form {
   background: inherit !important;
   backdrop-filter: blur(10px);
-  border: 10px var(--green-light);
+  border: 2px solid var(--green-light) !important ;
   border-radius: 8px;
-  color: var(--text-color) !important;
+  color: var(--green-light) !important;
   padding-left: 1rem 4rem;
   margin-bottom: 1.5rem;
 }
@@ -890,6 +890,7 @@ button:focus {
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+  padding-bottom: 50px;
 }
 .flip-card {
   background-color: transparent;
@@ -923,7 +924,7 @@ button:focus {
 .flip-card-front {
   background-color: transparent;
   color: var(--text-color);
-  border: 3px var(--green-2) solid;
+  border: 3px var(--green-0) solid;
   backdrop-filter: blur(5px);
   border-radius: 2px;
   padding: 20px;

@@ -4,7 +4,7 @@ import Particle from '../Particle';
 import Github from './Github';
 import Techstack from './Techstack';
 import Aboutcard from './AboutCard';
-import about from '../../assets/about.svg';
+/*import about from '../../assets/about.svg';*/
 import about5 from '../../assets/about5.svg';
 import Toolstack from './Toolstack';
 import description from '../description';
@@ -13,7 +13,7 @@ import { useThemeContext } from '../../hooks/themeHook';
 
 function About() {
   const { dark } = useThemeContext();
-  const laptopImg = dark ? about : about5;
+  const laptopImg = dark ? about5 : about5;
   return (
     <Container fluid className="about-section" id="about">
       <Particle />

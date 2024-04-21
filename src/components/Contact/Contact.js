@@ -42,10 +42,7 @@ function Contact() {
         <Row className="contact-main">
           <Col md={6} sm={12}>
             <Form ref={form} onSubmit={sendEmail}>
-              <Form.Group
-                controlId="formName"
-                className="contact-form"
-              >
+              <Form.Group controlId="formName">
                 <Form.Control
                   className="contact-form"
                   type="text"

@@ -24,31 +24,31 @@ function AboutCard() {
           <ul>
             <li className="about-activity">
               <FaHandPointRight
-                style={{ color: dark ? '#39d353' : '#9f53d1' }}
+                style={{ color: dark ? '#00c3fff8' : '#9f53d1' }}
               />{' '}
               Web Development
             </li>
             <li className="about-activity">
               <FaHandPointRight
-                style={{ color: dark ? '#39d353' : '#9f53d1' }}
+                style={{ color: dark ? '#00c3fff8' : '#9f53d1' }}
               />{' '}
               System Design and Architecture
             </li>
             <li className="about-activity">
               <FaHandPointRight
-                style={{ color: dark ? '#39d353' : '#9f53d1' }}
+                style={{ color: dark ? '#00c3fff8' : '#9f53d1' }}
               />{' '}
               Generative AI and LLM's
             </li>
             <li className="about-activity">
               <FaHandPointRight
-                style={{ color: dark ? '#39d353' : '#9f53d1' }}
+                style={{ color: dark ? '#00c3fff8' : '#9f53d1' }}
               />{' '}
               Machine Learning
             </li>
             <li className="about-activity">
               <FaHandPointRight
-                style={{ color: dark ? '#39d353' : '#9f53d1' }}
+                style={{ color: dark ? '#00c3fff8' : '#9f53d1' }}
               />{' '}
               Cloud Computing
             </li>
