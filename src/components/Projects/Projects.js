@@ -65,7 +65,7 @@ function Projects() {
             <ProjectCard
               imgPath={Skywest}
               isBlog={false}
-              title="Skywest Airlines Performance Analysis"
+              title="Skywest Airlines Analysis"
               description={descriptions.Proj3}
               link="https://github.com/veera9999/"
             />

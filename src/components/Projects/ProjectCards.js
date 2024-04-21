@@ -22,7 +22,7 @@ function ProjectCards(props) {
             </span>
           </Card.Title>
           <Card.Text style={{ textAlign: 'justify' }}>
-            {props.description}
+            <p className="project-description">{props.description}</p>
           </Card.Text>
         </Card.Body>
         <Button variant="primary" href={props.link} target="_blank">

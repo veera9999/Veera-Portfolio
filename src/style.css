@@ -619,7 +619,11 @@ button:focus {
 .dropdown-item:hover {
   background-color: var(--green-3) !important;
 }
-
+.project-description{
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: var(--text-color) !important;
+}
 
 .project-heading {
   color: var(--text-color) !important;
@@ -879,26 +883,56 @@ button:focus {
   padding-top: 200px !important;
   padding-bottom: 200px !important;
 }
-.education-card{
-  background-color: transparent !important; /* Transparent background*/
-  backdrop-filter: blur(10px);
-  border: 2px solid var(--green-2);
-  border-radius: 8px;
-  padding: 30px;
-  padding-bottom: 15px !important;
-  margin: 10px 0;
-  color: var(--text-color) !important;
-}
-
-.education-card:hover{
-  transform: scale(1.01) translateY(-10px);
-  transition: all 0.3s ease-in-out;
-  border-width: 4px !important;
-  border-color: var(--green-3) !important;
-}
 .education-heading {
   color: var(--text-color) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: transparent;
+  color: var(--text-color);
+  border: 3px var(--green-1) solid;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 4px 5px var(--green-3) !important;
+}
+
+.flip-card-back {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: var(--text-color);
+  transform: rotateY(180deg);
+  border-radius: 10px;
+  border: 3px var(--green-3) solid;
+  box-shadow: 0 4px 4px 5px var(--green-1) !important;
 }

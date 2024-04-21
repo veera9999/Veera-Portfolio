@@ -36,17 +36,17 @@ const description = {
   View: 'View Project',
   ProjSubtitle: "Here are a few projects I've worked on recently",
   Proj1:
-    ' Synchronous Music Controller System, a web application that allows multiple users to collaborate and control a shared music playback experience using the Spotify API. The backend is built with Django, while the frontend utilizes React, providing a responsive and intuitive user interface. The system implements session management and token-based authorization to securely communicate with the Spotify API and ensure a seamless and synchronized music listening experience across connected devices.',
+    'A web application built with Django backend and React frontend, integrated with spotify API that enables multiple users to collaboratively control a shared music playback experience in spotify.',
   Proj2:
-    'Performed in-depth analysis on a Netflix dataset and developed a user recommendation model using PyTorch collaborative filtering techniques. The key aspects include data exploration and preprocessing, implementing a PyTorch-based collaborative filtering model, evaluating and refining the model, and deploying the recommendation system. ',
+    'User Recommendation Model that provides personalized recommendations to users based on their viewing history and preferences, leveraging collaborative filtering techniques in PyTorch',
   Proj3:
-    'Analyzed the performance data of Skywest Airlines and compared it with other major airlines operating in the same region. The key aspects include data collection and preprocessing of performance metrics for Skywest and other airlines, exploratory data analysis to understand trends, patterns, and variations in Skywest performance over time, Skywest strengths, weaknesses, and areas of competitive advantage or disadvantage, benchmarking Skywest performance against industry standards and best practices.',
+    "A comprehensive analysis of Skywest Airline's performance data against other major airlines. Performed data collection and preprocessing, exploratory analysis to identify trends and patterns.",
   Proj4:
     'Personal website portfolio built with React, NodeJS and ❤️. Used React-Bootstrap, Rect-Particles and VerticalTimeLine Libraries and Modules for styling. Used Github Actions for CI/CD and Github Pages for deployment.',
   Proj5:
-    ' A comprehensive web application designed to streamline and automate the operational processes of a hospital. Built using Java, Spring MVC, Spring Security, Hibernate, and JPA, the system provides a robust and secure platform with user authentication and role-based access control for managing patient records, doctor and staff information, appointment scheduling, and various other hospital-related functionalities and leverages Hibernate and JPA for secure and efficient data storage.',
+    'Robust and secure Java web application built with Spring MVC, Hibernate, featuring user authentication, role-based access control, and efficient data handling through ORM, aimed at streamlining hospital operations.',
   Proj6:
-    'An e-commerce website, built using Java Spring MVC, Maven, Bootstrap, MySQL, Hibernate, and JPA. It features a robust Spring Security implementation for role-based authorization, a comprehensive inventory management system, and seamless integration with the MySQL database through Hibernate and JPA. The front-end utilizes the responsive Bootstrap framework, and the application is deployed on an AWS EC2 instance.',
+    'An e-commerce website built with Java Spring MVC, Maven,JPA and Spring Security, featuring inventory management system, efficient data handling and  storage, a responsive Bootstrap front-end, and is deployed on AWS EC2',
   ThisWebsite: 'This website',
   ContactHeader: 'Get in',
 };

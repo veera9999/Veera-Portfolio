@@ -11,13 +11,10 @@ import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
 import { useThemeContext } from '../../hooks/themeHook';
 function Home() {
-  const resumeLink = '../../assets/Veera_resume_DD.pdf';
   const { dark } = useThemeContext();
 
   const homeLogo = dark ? home5 : home6;
-  const handleResumeClick = () => {
-    window.open(resumeLink, '_blank');
-  };
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -53,9 +50,7 @@ function Home() {
                   zIndex: 1,
                 }}
               >
-                <Button variant="primary" onClick={handleResumeClick}>
-                  View Resume
-                </Button>
+                <Button variant="primary">View Resume</Button>
               </div>
             </Col>
 
