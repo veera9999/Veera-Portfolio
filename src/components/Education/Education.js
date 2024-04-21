@@ -23,9 +23,12 @@ function Education() {
       <Container>
         <Row className="justify-content-md-center">
           <Col
-            md={6}
+            md={5}
             style={{
               paddingTop: '50px',
+              borderRight: `3px solid ${
+                dark ? '#778899' : '#0597b1'
+              }`,
             }}
           >
             <div className="d-flex justify-content-center">
@@ -39,7 +42,8 @@ function Education() {
               />
             </div>
           </Col>
-          <Col md={6} style={{ paddingTop: '50px' }}>
+
+          <Col md={5} style={{ paddingTop: '50px' }}>
             <div className="d-flex justify-content-center">
               <EducationFlipCard
                 imageUrl={lpulogo}

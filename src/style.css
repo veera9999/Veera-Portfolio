@@ -15,23 +15,25 @@ html {
   --experience-main: #e27720;
   --tech-icon-background: rgb(255, 255, 255, 0.9);
   --nav-active: #f3f3f3;
+  --icon-color: #778899;
   --project-card-hoverbg: #d15353;
   --footer-background: transparent;
   --footer-social-icons: black;
-  --green-light: #0bc1f8f8;
-  --green-0: #3796d4;
+  --green-light: #00c3fff8;
+  --green-0: #008db8;
   --green-1: #16aaeece;
   --green-2: #f16d15dc;
   --green-3: #0ad0f3;
-  --green-6: #3eb1ce;
+  --green-6: #0597b1;
   --imp-text-color: var(--green-3); 
 }
 
 .dark {
   --bg-color: #0d1117;
   --text-color: #ffffff;
-  --experience-main: #037e40c4;
+  --experience-main: #04d9ffe1;
   --project-card-hoverbg: #93e4e7;
+   --icon-color: #E0FFFF;
   --tech-icon-background: rgba(0, 0, 0, 0.8);
   --nav-active: #161b22; 
   --footer-background: #161b22;
@@ -573,8 +575,6 @@ button:focus {
   bottom: 0 !important;
 }
 
-
-
 .btn-primary:hover {
   color: white !important;
   background-color: var(--green-2) !important;
@@ -644,7 +644,6 @@ button:focus {
   
 }
 
-
 .quote-card-view {
   color: var(--text-color) !important;
   background-color: inherit !important;
@@ -679,7 +678,8 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid var(--green-1) !important;
+  color: var(--icon-color) !important;
+  border: 1.7px solid var(--green-0) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -701,7 +701,7 @@ button:focus {
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
-  color: var(--text-color) !important;
+  color: var(--icon-color) !important;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -921,9 +921,9 @@ button:focus {
 .flip-card-front {
   background-color: transparent;
   color: var(--text-color);
-  border: 3px var(--green-1) solid;
+  border: 3px var(--green-2) solid;
   backdrop-filter: blur(5px);
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 20px;
   /*box-shadow: 0 4px 4px 5px var(--green-0) !important;*/
 }
@@ -934,6 +934,6 @@ button:focus {
   color: var(--text-color);
   transform: rotateY(180deg);
   border-radius: 10px;
-  border: 3px var(--green-3) solid;
-  box-shadow: 0 4px 4px 5px var(--green-1) !important;
+  border: 3px var(--green-2) solid;
+  box-shadow: 0 4px 4px 5px var(--green-2) !important;
 }

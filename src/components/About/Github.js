@@ -13,10 +13,10 @@ function Github() {
       {
         background: 'transparent',
         text: '#ffffff',
-        level4: '#39d353',
-        level3: '#26a641',
-        level2: '#006d32',
-        level1: '#0e4429',
+        level4: '#00c3fff8',
+        level3: '#008db8',
+        level2: '#0597b1',
+        level1: '#19879b',
         level0: '#161b22',
       }
     : // colors for the white theme
