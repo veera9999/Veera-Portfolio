@@ -1,13 +1,24 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { Col } from 'react-bootstrap';
-
+import { useThemeContext } from '../../hooks/themeHook';
 function EducationFlipCard(props) {
+  const { dark } = useThemeContext();
   return (
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <Card.Img variant="top" src={props.imageUrl} />
+          <div className="d-flex justify-content-center">
+            <Card.Img
+              style={{
+                width: '200px',
+                height: '200px',
+                paddingTop: '20px',
+              }}
+              variant="top"
+              src={props.imageUrl}
+            />
+          </div>
         </div>
         <div className="flip-card-back">
           <Card.Body>

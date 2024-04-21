@@ -17,7 +17,7 @@ function ProjectCards(props) {
       <div className="card-body-wrapper">
         <Card.Body>
           <Card.Title>
-            <span style={{ color: dark ? '#39d353' : '#e27720' }}>
+            <span style={{ color: dark ? '#04d9ff' : '#e27720' }}>
               {props.title}
             </span>
           </Card.Title>

@@ -36,11 +36,11 @@ html {
   --nav-active: #161b22; 
   --footer-background: #161b22;
   --footer-social-icons: white;
-  --green-light: #92e3a9;
-  --green-0: #0e4429;
-  --green-1: #006d32;
-  --green-2: #26a641;
-  --green-3: #39d353;
+  --green-light: #00d9ffe1;
+  --green-0: #0a889ea9;
+  --green-1: #04d9ffa9;
+  --green-2: #04d9ffe1;
+  --green-3: #04d9ff;
   --imp-text-color: var(--green-3);
 }
 
@@ -922,14 +922,15 @@ button:focus {
   background-color: transparent;
   color: var(--text-color);
   border: 3px var(--green-1) solid;
+  backdrop-filter: blur(5px);
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 4px 5px var(--green-3) !important;
+  /*box-shadow: 0 4px 4px 5px var(--green-0) !important;*/
 }
 
 .flip-card-back {
   background-color: transparent;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(5px);
   color: var(--text-color);
   transform: rotateY(180deg);
   border-radius: 10px;
