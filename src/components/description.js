@@ -5,7 +5,7 @@ const description = {
   Home: 'Home',
   About: 'About',
   AboutDescription1:
-    'I am full-stack dev equivalent of Tony Stark 🤖, a self-proclaimed billionaire🤑 genius, philanthropist, minus the billions and philanthrophy (especially the billions🥹.......still working on that part).',
+    'I am full-stack dev equivalent of Tony Stark 🤖, a self-proclaimed billionaire🤑 genius, philanthropist, minus the billions and philanthrophy (especially the billions.......still working on that part).',
   AboutDescription2:
     "While my skills are robust enough to piece together functional web apps, the code underneath is often a result of my dedication, passion , enthusiasm to learn and maybe a few Stack Overflow searches at 3 AM (don't judge, we've all been there 👀). I really enjoy working in collaborative environments, mostly because I can learn from others while adding value to the team but also I need others to constantly extinguish the fires I inadvertently start while chasing shiny new tech trends(Just joking ...am I?🙃).",
   AboutDescription3:

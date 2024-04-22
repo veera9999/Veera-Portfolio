@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Navbar.Brand
         style={{ borderRadius: '10px' }}
-        className="navLogo"
+        className="navLogo" 
       >
         <Nav.Link
           as={Link}
@@ -47,7 +47,7 @@ function NavBar() {
           <img
             style={{
               borderRadius: '50px',
-              boxShadow: '2px 4px 2px 2px #00c3fff8',
+          
             }}
             src={logo}
             width="40"
