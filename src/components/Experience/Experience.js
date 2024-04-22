@@ -14,7 +14,7 @@ import { FaJava } from 'react-icons/fa6';
 import { HiDocumentReport } from 'react-icons/hi';
 import { GiArtificialIntelligence } from 'react-icons/gi';
 import { PiStudentFill } from 'react-icons/pi';
-import { GrWorkshop } from 'react-icons/gr';
+import { GrWorkshop, GrTechnology } from 'react-icons/gr';
 import { VscOrganization } from 'react-icons/vsc';
 import { BsPeopleFill } from 'react-icons/bs';
 
@@ -28,7 +28,6 @@ import {
   SiPython,
   SiTableau,
   SiHackerrank,
-  SiYoutubeshorts,
 } from 'react-icons/si';
 function Experience() {
   const { dark } = useThemeContext();
@@ -246,7 +245,7 @@ function Experience() {
             }}
             icon={
               <span>
-                <SiYoutubeshorts />
+                <GrTechnology />
               </span>
             }
           >

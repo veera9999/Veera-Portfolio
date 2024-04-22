@@ -24,7 +24,7 @@ html {
   --green-0: #008db8;
   --green-1: #16aaeece;
   --green-2: #f16d15dc;
-  --green-3: #0ad0f3;
+  --green-3: #fa781b;
   --green-6: #0597b1;
   --imp-text-color: var(--green-3); 
 }
@@ -32,7 +32,7 @@ html {
 .dark {
   --bg-color: #0d1117;
   --text-color: #ffffff;
-  --experience-main: #04d9ffe1;
+  --experience-main: #00a6cf;
   --project-card-hoverbg: #93e4e7;
    --icon-color: #E0FFFF;
   --tech-icon-background: rgba(0, 0, 0, 0.8);
@@ -804,7 +804,7 @@ button:focus {
 }
 
 .vertical-timeline::before {
-  background: var(--green-3);
+  background: #00d9ff;
 }
 
 .vertical-timeline-element {
@@ -843,7 +843,7 @@ button:focus {
 .contact-form {
   background: inherit !important;
   backdrop-filter: blur(10px);
-  border: 2px solid var(--green-light) !important ;
+  border: 2px solid var(--green-3) !important ;
   border-radius: 8px;
   color: var(--green-light) !important;
   padding-left: 1rem 4rem;
@@ -883,7 +883,7 @@ button:focus {
   background: transparent;
   backdrop-filter: blur(5px); 
   padding: 0.5rem;
-  border: 2px solid var(--green-2);
+  border: 2px solid var(--green-3);
   border-radius: 1rem;
   margin-top: 1rem;
   width: 18rem;
@@ -964,7 +964,7 @@ button:focus {
 .flip-card-front {
   background-color: transparent;
   color: var(--text-color);
-  border: 3px var(--green-3) solid;
+  border: 3px var(--green-light) solid;
   backdrop-filter: blur(5px);
   border-radius: 2px;
   padding: 20px;
