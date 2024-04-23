@@ -88,7 +88,7 @@ function Techstack() {
       ].map((tool, index) => (
         <Col xs={4} md={2} className="tech-icons" key={index}>
           {tool}
-          <div className="tech-icon-hover-info">
+          <div className="tech-icon-hover-info hover">
             <span>{toolNameMap[tool.type.name]}</span>
           </div>
         </Col>

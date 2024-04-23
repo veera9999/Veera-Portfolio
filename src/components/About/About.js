@@ -18,7 +18,7 @@ function About() {
     <Container fluid className="about-section" id="about">
       <Particle />
       <Container>
-        <div className="about-maxwid">
+        <div>
           <Row style={{ padding: '10px' }}>
             <Col
               md={7}
