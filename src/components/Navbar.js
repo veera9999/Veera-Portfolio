@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import BtnToggleTheme from './BtnTottleTheme';
 import { Col, Row } from 'react-bootstrap';
 import description from './description';
-import logolight from '../assets/logolight.png';
-import logodark from '../assets/logodark.png';
+import logolight from '../assets/veeralogolight.png';
+import logodark from '../assets/veeralogodark.png';
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
@@ -50,9 +50,9 @@ function NavBar() {
           
             }}
             src={logo}
-            width="40"
-            height="40"
-            className="d-inline-block align-top"
+            width="50"
+            height="50"
+            
             alt="React Bootstrap logo"
           />
         </Nav.Link>

@@ -148,7 +148,7 @@ function Experience() {
                 dark ? '#0ad0f3' : '#0ad0f3'
               }`,
             }}
-            date="September 2021 – July 2022"
+            date="August 2020 – July 2021"
             iconStyle={{
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
               color: '#ffffff',
@@ -233,7 +233,7 @@ function Experience() {
                 dark ? '#0ad0f3' : '#0ad0f3'
               }`,
             }}
-            date="September 2021 – July 2022"
+            date="August 2018 – July 2022"
             iconStyle={{
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
               color: '#ffffff',
