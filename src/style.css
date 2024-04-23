@@ -693,6 +693,7 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
   position: relative;
+  width: 75%;
 }
 
 .tech-icon-hover-info {
@@ -713,10 +714,10 @@ button:focus {
 
 .tech-icons:hover .tech-icon-hover-info {
   opacity: 1;
- 
- 
 }
-
+.tech-icons:hover .icon-images {
+  transform: scale(1.25);
+}
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
