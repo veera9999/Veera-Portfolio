@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Navbar.Brand
         style={{ borderRadius: '10px' }}
-        className="navLogo" 
+        className="navLogo"
       >
         <Nav.Link
           as={Link}
@@ -47,12 +47,10 @@ function NavBar() {
           <img
             style={{
               borderRadius: '50px',
-          
             }}
             src={logo}
-            width="50"
-            height="50"
-            
+            width="40"
+            height="40"
             alt="React Bootstrap logo"
           />
         </Nav.Link>

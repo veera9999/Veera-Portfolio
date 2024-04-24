@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import home5 from '../../assets/home5.svg';
 import home6 from '../../assets/home6.svg';
 import About from '../About/About';
@@ -9,14 +9,12 @@ import description from '../description';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
-import resumeFile from './Veera_resume_DD.pdf';
 import { useThemeContext } from '../../hooks/themeHook';
 
 function Home() {
   const { dark } = useThemeContext();
 
   const homeLogo = dark ? home5 : home6;
-
 
   return (
     <section>
@@ -44,15 +42,7 @@ function Home() {
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
-              <Button
-  className="resume-button"
-  variant="primary"
-  href={resumeFile}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  View Resume
-</Button>            </Col>
+            </Col>
 
             <Col md={5} style={{ paddingTop: '120px' }}>
               <img
