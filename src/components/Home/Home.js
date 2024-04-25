@@ -44,15 +44,17 @@ function Home() {
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
-              <Button
-  className="resume-button"
-  variant="primary"
-  href={resumeFile}
-  target="_blank"
-  rel="noopener noreferrer"
->
-  View Resume
-</Button>            </Col>
+              <div>             <Button
+                variant="primary"
+                href={resumeFile}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Resume
+              </Button>  
+              </div>
+           
+              </Col>
 
             <Col md={5} style={{ paddingTop: '120px' }}>
               <img
