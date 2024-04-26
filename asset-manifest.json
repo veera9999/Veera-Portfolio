@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.2076ba4e.css",
-    "main.js": "/Veera-Portfolio/static/js/main.21ff2bf7.js",
+    "main.css": "/Veera-Portfolio/static/css/main.19be1faa.css",
+    "main.js": "/Veera-Portfolio/static/js/main.f5231d9c.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/home6.svg": "/Veera-Portfolio/static/media/home6.bf12469a2ee8c22da6f6e1cac5b17b80.svg",
+    "static/media/resume.pdf": "/Veera-Portfolio/static/media/resume.2880ba11b2edece34707.pdf",
     "static/media/lpulightlogo.png": "/Veera-Portfolio/static/media/lpulightlogo.37e1b80be06f4c462ff6.png",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
     "static/media/BestBuy.jpg": "/Veera-Portfolio/static/media/BestBuy.e0695b6608ced9d67d25.jpg",
@@ -49,12 +50,12 @@
     "static/media/django.svg": "/Veera-Portfolio/static/media/django.c53d7b212d9f61013c22718e7ea29987.svg",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/oracle.svg": "/Veera-Portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
-    "main.2076ba4e.css.map": "/Veera-Portfolio/static/css/main.2076ba4e.css.map",
-    "main.21ff2bf7.js.map": "/Veera-Portfolio/static/js/main.21ff2bf7.js.map",
+    "main.19be1faa.css.map": "/Veera-Portfolio/static/css/main.19be1faa.css.map",
+    "main.f5231d9c.js.map": "/Veera-Portfolio/static/js/main.f5231d9c.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2076ba4e.css",
-    "static/js/main.21ff2bf7.js"
+    "static/css/main.19be1faa.css",
+    "static/js/main.f5231d9c.js"
   ]
 }
