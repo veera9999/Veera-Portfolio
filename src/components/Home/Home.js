@@ -1,11 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import home5 from '../../assets/home5.svg';
 import home6 from '../../assets/home6.svg';
 import About from '../About/About';
 import Particle from '../Particle';
 import Type from './Type';
 import description from '../description';
+import HomeSocial from './HomeSocial';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
@@ -13,8 +14,9 @@ import { useThemeContext } from '../../hooks/themeHook';
 
 function Home() {
   const { dark } = useThemeContext();
-
   const homeLogo = dark ? home5 : home6;
+
+
 
   return (
     <section>
@@ -42,9 +44,9 @@ function Home() {
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
+              
             </Col>
-
-            <Col md={5} style={{ paddingTop: '120px' }}>
+            <Col md={5} >
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -54,6 +56,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <HomeSocial />
       <About />
       <Projects />
       <Experience />

@@ -130,6 +130,7 @@ function NavBar() {
               {description.Contact}
             </Nav.Link>
           </Nav.Item>
+          
         </Nav>
       </Navbar.Collapse>
 
