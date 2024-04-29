@@ -362,7 +362,15 @@ button:focus {
     padding-bottom: 2em !important;
   }
 }
-
+.home-social a{
+font-size: 3rem;
+}
+.home-social-icons {
+  display: inline-block !important;
+  padding-right: 25px;
+  padding-left: 25px;
+  
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /********************************************************** Footer ***********************************************************************************************/
@@ -428,8 +436,6 @@ button:focus {
 .icon-colour {
   color: var(--green-1) !important;
 }
-
-
 
 .quote-about {
   margin-block-end: 0;
@@ -571,8 +577,8 @@ button:focus {
 }
 
 .quote-card-view {
-  backdrop-filter: blur(5px);
-  border: 1px solid var(--green-light) !important;
+  backdrop-filter: blur(1px);
+  font-size: 1.25rem;
   color: var(--text-color) !important;
   background-color: inherit !important;
   margin-right: 30px !important;
@@ -708,9 +714,6 @@ button:focus {
   padding-bottom: 50px;
 }
 
-.experience-location{
-  color: var(--green-2)  !important;
-}
 .main-experience{
   box-shadow: 0px 4px 10px 0px #858885 !important;
   padding-bottom: 10px;
@@ -767,7 +770,7 @@ button:focus {
   background: inherit !important;
   backdrop-filter: blur(10px);
   border: 2px solid var(--green-3) !important ;
-  border-radius: 8px;
+  border-radius: 20px;
   color: var(--green-light) !important;
   padding-left: 1rem 4rem;
   margin-bottom: 1.5rem;
@@ -778,24 +781,10 @@ button:focus {
   border-color: var(--green-3);
 }
 
-/*.contact-icons {
-  display: flex;
-  padding: 10px;
-  padding-top: 10px;
-  justify-content: flex-end;
-  align-items: center;
-  font-size: 2.5rem;
+.contact-icons {
+  justify-content: center ;
 }
 
-.contact-icons a {
-  color: var(--green-3);
-  margin-left: 1rem;
-  transition: color 0.3s ease;
-}
-
-.contact-icons a:hover {
-  color: var(--green-0);
-}*/
 .form-body{
   padding-top: 50px;
 }

@@ -42,7 +42,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 className="footer-social-icons"
-                href="veera.palla919@gmail.com"
+                href="mailto:veera.palla919@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >

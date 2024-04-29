@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Particle from '../Particle';
 import Github from './Github';
 import Techstack from './Techstack';
 import Aboutcard from './AboutCard';
@@ -16,7 +15,6 @@ function About() {
   const laptopImg = dark ? about5 : about5;
   return (
     <Container fluid className="about-section" id="about">
-      <Particle />
       <Container>
         <div>
           <Row style={{ padding: '10px' }}>

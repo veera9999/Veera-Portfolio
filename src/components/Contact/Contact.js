@@ -43,55 +43,6 @@ function Contact() {
           <strong className="green"> Touch </strong>
         </h1>
         <Row className="contact-main">
-          <Col md={5} className="d-flex justify-content-center">
-            <Container>
-              <Row>
-                <Col ms={12}>
-                  <article className="contact__option">
-                    <MdOutlineEmail className="contact__option-icon" />
-                    <h5 style={{ paddingTop: '1rem' }}>Email</h5>
-                    <h5>veera.palla919@gmail.com</h5>
-                    <a
-                      href="mailto:veera.palla919@gmail.com"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Send a message
-                    </a>
-                  </article>
-                </Col>
-                <Col md={12}>
-                  <article className="contact__option">
-                    <BsWhatsapp className="contact__option-icon" />
-                    <h5 style={{ paddingTop: '1rem' }}>Whatsapp</h5>
-                    <h5>+1 (847)542 6690</h5>
-                    <a
-                      href="https://api.whatsapp.com/send?phone=8475426690"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Send a message
-                    </a>
-                  </article>
-                </Col>
-                <Col md={12}>
-                  <article className="contact__option">
-                    <RiMessengerLine className="contact__option-icon" />
-                    <h5 style={{ paddingTop: '1rem' }}>Messenger</h5>
-                    <h5>veera Palla</h5>
-                    <a
-                      href="https://api.whatsapp.com/send?phone=8475426690"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Send a message
-                    </a>
-                  </article>
-                </Col>
-              </Row>
-            </Container>
-          </Col>
-
           <Col md={6} sm={12} className="form-body">
             <Form ref={form} onSubmit={sendEmail}>
               <Form.Group controlId="formName">
@@ -140,6 +91,54 @@ function Contact() {
                 Send Message
               </Button>
             </Form>
+          </Col>
+          <Col md={5} className="d-flex justify-content-center">
+            <Container className="contact-icons">
+              <Row>
+                <Col ms={12}>
+                  <article className="contact__option">
+                    <MdOutlineEmail className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Email</h5>
+                    <h5>veera.palla919@gmail.com</h5>
+                    <a
+                      href="mailto:veera.palla919@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+                <Col md={12}>
+                  <article className="contact__option">
+                    <BsWhatsapp className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Whatsapp</h5>
+                    <h5>+1 (847)542 6690</h5>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=8475426690"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+                <Col md={12}>
+                  <article className="contact__option">
+                    <RiMessengerLine className="contact__option-icon" />
+                    <h5 style={{ paddingTop: '1rem' }}>Messenger</h5>
+                    <h5>veera Palla</h5>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=8475426690"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Send a message
+                    </a>
+                  </article>
+                </Col>
+              </Row>
+            </Container>
           </Col>
         </Row>
       </Container>

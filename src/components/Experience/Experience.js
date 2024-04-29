@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Particle from '../Particle';
 import descriptions from '../description';
 import {
   VerticalTimeline,
@@ -34,7 +33,6 @@ function Experience() {
 
   return (
     <Container fluid className="experience-section" id="experience">
-      <Particle />
       <Container>
         <h1 className="experience-heading">
           {descriptions.ProjHeader}
@@ -63,6 +61,7 @@ function Experience() {
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
+              paddingTop: '10px',
               justifyContent: 'center',
               fontSize: '2rem',
               fontWeight: 'bold',
@@ -153,6 +152,7 @@ function Experience() {
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
               color: '#ffffff',
               display: 'flex',
+              paddingTop: '10px',
               alignItems: 'center',
               justifyContent: 'center',
               fontSize: '2rem',
@@ -239,6 +239,7 @@ function Experience() {
               color: '#ffffff',
               display: 'flex',
               alignItems: 'center',
+              paddingTop: '10px',
               justifyContent: 'center',
               fontSize: '2rem',
               fontWeight: 'bold',
