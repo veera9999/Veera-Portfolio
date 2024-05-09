@@ -14,7 +14,7 @@ function HomeSocial() {
       <Container fluid>
         <Container>
           <Row>
-            <Col md={6}>
+            <Col md={6} className="home-social">
               <Button variant="primary" onClick={handleOpenResume}>
                 View Resume
               </Button>
