@@ -640,14 +640,15 @@ color: var(--green-3) !important;
   margin: 15px;
   padding: 10px ;
   opacity: 0.93 ;
-  color: var(--icon-color) !important;
-  border: 1.7px solid var(--green-0) ;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
+  color: var(--icon-color) ;
+  border: 1.7px solid var(--green-2) ;
+  vertical-align: middle ;
+  text-align: center;
+  box-shadow: 1px 2px 2px 1px var(--green-3);
+  border-radius: 10px ;
   display: table ;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  overflow: hidden ;
+  transition: all 0.4s ease 0s ;
   position: relative;
   width: 75%;
 }
@@ -669,10 +670,10 @@ color: var(--green-3) !important;
 }
 
 .tech-icons:hover .tech-icon-hover-info {
-  opacity: 1;
+  opacity: 1 !important;
 }
 .tech-icons:hover .icon-images {
-  transform: scale(1.25);
+  transform: scale(1.35);
 }
 @media (max-width: 767px) {
   .tech-icons {
@@ -681,7 +682,7 @@ color: var(--green-3) !important;
 }
 
 .tech-icons:hover {
-  transform: scale(1.15) ;
+  transform: scale(1.1) ;
   overflow: hidden ;
   backdrop-filter: blur(5px) ;
   color: var(--green-2) !important;

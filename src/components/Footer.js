@@ -8,6 +8,16 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
 
+  const handleOpenGmail = () => {
+    const email = 'veera.palla919@gmail.com';
+    const subject = encodeURIComponent('Subject Here'); // You can customize the subject if needed
+    const body = encodeURIComponent('Body Here'); // You can customize the body if needed
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`,
+      '_blank',
+    );
+  };
+
   return (
     <Container fluid className="footer">
       <Row>
@@ -42,9 +52,10 @@ function Footer() {
             <li className="social-icons">
               <a
                 className="footer-social-icons"
-                href="mailto:veera.palla919@gmail.com"
+                href="gmailto:veera.palla919@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleOpenGmail}
               >
                 <AiFillMail />
               </a>
