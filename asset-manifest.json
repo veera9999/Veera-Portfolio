@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Veera-Portfolio/static/css/main.e2e7c9bc.css",
-    "main.js": "/Veera-Portfolio/static/js/main.f1912ef8.js",
+    "main.css": "/Veera-Portfolio/static/css/main.7c1f4319.css",
+    "main.js": "/Veera-Portfolio/static/js/main.794e1679.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
-    "static/media/home6.svg": "/Veera-Portfolio/static/media/home6.bf12469a2ee8c22da6f6e1cac5b17b80.svg",
     "static/media/resume.pdf": "/Veera-Portfolio/static/media/resume.2880ba11b2edece34707.pdf",
     "static/media/lpulightlogo.png": "/Veera-Portfolio/static/media/lpulightlogo.37e1b80be06f4c462ff6.png",
     "static/media/portfolio.png": "/Veera-Portfolio/static/media/portfolio.ee92381bffee548ca981.png",
     "static/media/BestBuy.jpg": "/Veera-Portfolio/static/media/BestBuy.e0695b6608ced9d67d25.jpg",
     "static/media/veeralogodark.png": "/Veera-Portfolio/static/media/veeralogodark.4aebb9b2f4903f802d2f.png",
     "static/media/veeralogolight.png": "/Veera-Portfolio/static/media/veeralogolight.26d74e054e0cfc614c24.png",
-    "static/media/home5.svg": "/Veera-Portfolio/static/media/home5.8fb38ab75921122116c2751d5f70bfdf.svg",
+    "static/media/veera_home.jpg": "/Veera-Portfolio/static/media/veera_home.5fd71692287b85addb63.jpg",
     "static/media/maven.svg": "/Veera-Portfolio/static/media/maven.c9cf67e3521f980e18400ddc470953fc.svg",
     "static/media/HMS.jpg": "/Veera-Portfolio/static/media/HMS.ffc4d843698a78b37afc.jpg",
     "static/media/Skywest.jpg": "/Veera-Portfolio/static/media/Skywest.d87fb6170c676cc1d4bc.jpg",
@@ -50,12 +49,12 @@
     "static/media/django.svg": "/Veera-Portfolio/static/media/django.c53d7b212d9f61013c22718e7ea29987.svg",
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/oracle.svg": "/Veera-Portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
-    "main.e2e7c9bc.css.map": "/Veera-Portfolio/static/css/main.e2e7c9bc.css.map",
-    "main.f1912ef8.js.map": "/Veera-Portfolio/static/js/main.f1912ef8.js.map",
+    "main.7c1f4319.css.map": "/Veera-Portfolio/static/css/main.7c1f4319.css.map",
+    "main.794e1679.js.map": "/Veera-Portfolio/static/js/main.794e1679.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2e7c9bc.css",
-    "static/js/main.f1912ef8.js"
+    "static/css/main.7c1f4319.css",
+    "static/js/main.794e1679.js"
   ]
 }
