@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Row, Col } from 'react-bootstrap';
 import {
   DiJavascript1,
@@ -27,12 +26,12 @@ import {
   SiBabel,
   SiBootstrap,
 } from 'react-icons/si';
-
 import { FaJava } from 'react-icons/fa';
 
 function Techstack() {
   const toolNameMap = {
     SiCplusplus: 'C++',
+    SiCsharp: 'C#',
     DiPython: 'Python',
     FaJava: 'Java',
     DiJavascript1: 'JavaScript',
@@ -43,7 +42,6 @@ function Techstack() {
     DiSpark: 'Spark',
     DiRust: 'Rust',
     SiGnubash: 'Bash',
-    SiCsharp: 'C#',
     SiHtml5: 'HTML',
     SiDjango: 'Django',
     SiSpring: 'Spring',

@@ -634,30 +634,30 @@ color: var(--green-3) !important;
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /******************************************************** TechStack ***********************************************************************************************/
 /* --------=-----------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .tech-icons {
-  font-size: 4em ;
+  font-size: 4em;
   margin: 15px;
-  padding: 10px ;
-  opacity: 0.93 ;
-  color: var(--icon-color) ;
-  border: 1.7px solid var(--green-2) ;
-  vertical-align: middle ;
+  padding: 10px;
+  opacity: 0.93;
+  color: var(--icon-color);
+  border: 1.7px solid var(--green-2);
+  vertical-align: middle;
   text-align: center;
   box-shadow: 1px 2px 2px 1px var(--green-3);
-  border-radius: 10px ;
-  display: table ;
-  overflow: hidden ;
-  transition: all 0.4s ease 0s ;
+  border-radius: 5px;
+  display: table;
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
   position: relative;
   width: 75%;
 }
 
-.tech-icon-hover-info {
-  position: relative;
-  padding-top: 0%;
-  width: 100%;
-  height: 100%;
+.tech-icons .tech-icon-hover-info {
+  position: relative; /* Changed from relative to absolute */
+  top: 0; /* Ensure it covers the entire icon */
+  left: 0; /* Ensure it covers the entire icon */
+  width: 100%; /* Ensure it covers the entire icon */
+  height: 100%; /* Ensure it covers the entire icon */
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -672,9 +672,11 @@ color: var(--green-3) !important;
 .tech-icons:hover .tech-icon-hover-info {
   opacity: 1 !important;
 }
+
 .tech-icons:hover .icon-images {
   transform: scale(1.35);
 }
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
@@ -682,12 +684,11 @@ color: var(--green-3) !important;
 }
 
 .tech-icons:hover {
-  transform: scale(1.1) ;
-  overflow: hidden ;
-  backdrop-filter: blur(5px) ;
+  transform: scale(1.1);
+  overflow: hidden;
+  backdrop-filter: blur(5px);
   color: var(--green-2) !important;
-  border: 1px solid var(--green-3 ) !important;
-
+  border: 1px solid var(--green-3) !important;
 }
 
 .animate-like {
