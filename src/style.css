@@ -808,7 +808,7 @@ padding-left: 150px !important;
 }
 @media(max-width: 767px) {
   .contact-icons{
-    padding-left: 30px !important;
+    padding-left: 25px !important;
     padding-top: 50px;
   }
 }
