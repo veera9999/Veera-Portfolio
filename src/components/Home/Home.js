@@ -43,7 +43,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
-            <Col md={5}>
+            <Col md={5} className="veera-img">
               <img src={veera} alt="home pic" className="img-home" />
             </Col>
           </Row>
