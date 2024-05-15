@@ -16,7 +16,6 @@ import {
   SiScikitlearn,
   SiGnubash,
   SiCsharp,
-  SiKotlin,
   SiDjango,
   SiSpring,
   SiSpringboot,

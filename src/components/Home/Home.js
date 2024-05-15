@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import home5 from '../../assets/home5.svg';
-import home6 from '../../assets/home6.svg';
+/*import home5 from '../../assets/home5.svg';
+import home6 from '../../assets/home6.svg';*/
 import veera from '../../assets/veera_home.jpg';
 import About from '../About/About';
 import Particle from '../Particle';
@@ -11,11 +11,10 @@ import HomeSocial from './HomeSocial';
 import Projects from '../Projects/Projects';
 import Experience from '../Experience/Experience';
 import Contact from '../Contact/Contact';
-import { useThemeContext } from '../../hooks/themeHook';
+/*import { useThemeContext } from '../../hooks/themeHook';*/
 
 function Home() {
-  const { dark } = useThemeContext();
-  const homeLogo = dark ? home5 : home6;
+  /*const { dark } = useThemeContext();*/
 
   return (
     <section>
