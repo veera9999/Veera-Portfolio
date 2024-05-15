@@ -26,6 +26,7 @@ html {
   --green-2: #f16d15dc;
   --green-3: #fa781b;
   --green-6: #0597b1;
+  --homepicbg: #068a9b;
   --imp-text-color: var(--green-3); 
 }
 
@@ -44,6 +45,7 @@ html {
   --green-1: #04d9ffa9;
   --green-2: #04d9ffe1;
   --green-3: #04d9ff;
+  --homepicbg:#055563;
   --imp-text-color: var(--green-3);
 }
 
@@ -362,6 +364,12 @@ button:focus {
     padding-bottom: 2em !important;
   }
 }
+
+.home-social-section{
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 30px !important;
+}
 .home-social a{
 font-size: 2.5rem;
 color: var(--green-3) !important;
@@ -376,6 +384,19 @@ color: var(--green-3) !important;
 @media (max-width: 767px) {
   .home-social a {
     padding-top: 200px;
+  }
+}
+.img-home{
+  border: 1px solid var(--homepicbg);
+  border-radius: 250px;
+  width: 30em;
+  height: 30em;
+  box-shadow: 0 2px 2px 5px var(--homepicbg) !important;
+}
+@media(max-width: 767px){
+  .img-home{
+    width: 20em;
+    height: 20em;
   }
 }
 
@@ -788,9 +809,6 @@ color: var(--green-3) !important;
   border-color: var(--green-3);
 }
 
-.contact-icons {
-  justify-content: center ;
-}
 
 .form-body{
   padding-top: 50px;

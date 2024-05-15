@@ -6,11 +6,25 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 function HomeSocial() {
   const handleOpenResume = () => {
+    console.log('Attempting to open resume...');
     window.open(resumeFile, '_blank'); // Open resume in a new window
   };
 
+  const handleOpenGmail = () => {
+    const email = 'veera.palla919@gmail.com';
+    const subject = encodeURIComponent('Subject Here'); // You can customize the subject if needed
+    const body = encodeURIComponent('Body Here'); // You can customize the body if needed
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`,
+      '_blank',
+    );
+  };
+
   return (
-    <section style={{ paddingTop: '120px' }}>
+    <section
+      style={{ paddingTop: '120px' }}
+      className="home-social-section"
+    >
       <Container fluid>
         <Container>
           <Row>
@@ -27,6 +41,7 @@ function HomeSocial() {
                     href="https://github.com/veera9999"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => console.log('GitHub link clicked')}
                   >
                     <AiFillGithub />
                   </a>
@@ -37,6 +52,9 @@ function HomeSocial() {
                     href="https://www.linkedin.com/in/veera-palla-6097071b8/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() =>
+                      console.log('LinkedIn link clicked')
+                    }
                   >
                     <FaLinkedinIn />
                   </a>
@@ -44,9 +62,8 @@ function HomeSocial() {
                 <li className="home-social-icons">
                   <a
                     className="footer-social-icons"
-                    href="mailto:veera.palla919@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#"
+                    onClick={handleOpenGmail}
                   >
                     <AiFillMail />
                   </a>

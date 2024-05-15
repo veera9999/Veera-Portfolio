@@ -43,56 +43,61 @@ function Contact() {
           <strong className="green"> Touch </strong>
         </h1>
         <Row className="contact-main">
-          <Col md={6} sm={12} className="form-body">
-            <Form ref={form} onSubmit={sendEmail}>
-              <Form.Group controlId="formName">
-                <Form.Control
-                  className="contact-form"
-                  type="text"
-                  placeholder="Your Name"
-                  value={name}
-                  name="user_name"
-                  onChange={(e) => setName(e.target.value)}
-                  required
-                />
-              </Form.Group>
+          <Col md={6} sm={12} className="contact-flex">
+            <div className="form-body">
+              <Form ref={form} onSubmit={sendEmail}>
+                <Form.Group controlId="formName">
+                  <Form.Control
+                    className="contact-form"
+                    type="text"
+                    placeholder="Your Name"
+                    value={name}
+                    name="user_name"
+                    onChange={(e) => setName(e.target.value)}
+                    required
+                  />
+                </Form.Group>
 
-              <Form.Group controlId="formEmail">
-                <Form.Control
-                  className="contact-form"
-                  type="email"
-                  name="user_email"
-                  placeholder="Your Email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </Form.Group>
+                <Form.Group controlId="formEmail">
+                  <Form.Control
+                    className="contact-form"
+                    type="email"
+                    name="user_email"
+                    placeholder="Your Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                  />
+                </Form.Group>
 
-              <Form.Group controlId="formMessage">
-                <Form.Control
-                  className="contact-form"
-                  as="textarea"
-                  rows={3}
-                  placeholder="Message"
-                  name="message"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  required
-                />
-              </Form.Group>
+                <Form.Group controlId="formMessage">
+                  <Form.Control
+                    className="contact-form"
+                    as="textarea"
+                    rows={3}
+                    placeholder="Message"
+                    name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    required
+                  />
+                </Form.Group>
 
-              <Button
-                variant="primary"
-                type="submit"
-                value="Send"
-                style={{ padding: '10px' }}
-              >
-                Send Message
-              </Button>
-            </Form>
+                <Button
+                  variant="primary"
+                  type="submit"
+                  value="Send"
+                  style={{ padding: '10px' }}
+                >
+                  Send Message
+                </Button>
+              </Form>
+            </div>
           </Col>
-          <Col md={5} className="d-flex justify-content-center">
+          <Col
+            md={5}
+            className="d-flex justify-content-center align-items-center"
+          >
             <Container className="contact-icons">
               <Row>
                 <Col ms={12}>

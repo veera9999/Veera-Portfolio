@@ -1,7 +1,8 @@
 import React from 'react';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import home5 from '../../assets/home5.svg';
 import home6 from '../../assets/home6.svg';
+import veera from '../../assets/veera_home.jpg';
 import About from '../About/About';
 import Particle from '../Particle';
 import Type from './Type';
@@ -15,8 +16,6 @@ import { useThemeContext } from '../../hooks/themeHook';
 function Home() {
   const { dark } = useThemeContext();
   const homeLogo = dark ? home5 : home6;
-
-
 
   return (
     <section>
@@ -44,14 +43,9 @@ function Home() {
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <Type />
               </div>
-              
             </Col>
-            <Col md={5} >
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-              />
+            <Col md={5}>
+              <img src={veera} alt="home pic" className="img-home" />
             </Col>
           </Row>
         </Container>

@@ -35,7 +35,6 @@ function Techstack() {
   const toolNameMap = {
     SiCplusplus: 'C++',
     DiPython: 'Python',
-    SiKotlin: 'Kotlin',
     FaJava: 'Java',
     DiJavascript1: 'JavaScript',
     DiNodejs: 'Node.js',
@@ -63,7 +62,6 @@ function Techstack() {
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       {[
         <SiCplusplus />,
-        <SiKotlin />,
         <SiCsharp />,
         <DiPython />,
         <FaJava />,
