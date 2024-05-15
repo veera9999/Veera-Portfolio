@@ -732,15 +732,15 @@ color: var(--green-3) !important;
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .experience-section {
-  position: relative !important;
-  padding-top: 200px !important;
-  padding-bottom: 30px !important;
+  position: relative ;
+  padding-top: 200px ;
+  padding-bottom: 30px ;
 }
 .experience-heading {
-  color: var(--text-color) !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
+  color: var(--text-color) ;
+  font-size: 2.3em ;
+  font-weight: 500 ;
+  padding-top: 10px ;
   padding-bottom: 50px;
 }
 
@@ -775,25 +775,17 @@ color: var(--green-3) !important;
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*********************************************************** Contact ***********************************************************************************************/
 /* --------=-------------------------------------------------------------------------------------------------------------------------------------------------------*/
- #Icontsparticles{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
 
 .contact-section {
-  position: relative !important;
-  padding-top: 200px !important;
-  padding-bottom: 200px !important;
+  position: relative ;
+  padding-top: 200px ;
+  padding-bottom: 200px ;
 }
 .contact-heading{
-  color: var(--text-color) !important;
-  font-size: 2.3em !important;
-  font-weight: 500 !important;
-  padding-top: 10px !important;
+  color: var(--text-color) ;
+  font-size: 2.3em ;
+  font-weight: 500 ;
+  padding-top: 10px ;
   padding-bottom: 50px;
 }
 .contact-form {
@@ -811,7 +803,15 @@ color: var(--green-3) !important;
   border-color: var(--green-3);
 }
 
-
+.contact-icons{
+padding-left: 150px !important;
+}
+@media(max-width: 767px) {
+  .contact-icons{
+    padding-left: 30px !important;
+    padding-top: 50px;
+  }
+}
 .form-body{
   padding-top: 50px;
 }
@@ -860,9 +860,9 @@ color: var(--green-3) !important;
 /* --------=-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .education-section{
-  position: relative !important;
-  padding-top: 200px !important;
-  padding-bottom: 200px !important;
+  position: relative ;
+  padding-top: 200px ;
+  padding-bottom: 200px ;
 }
 .education-heading {
   color: var(--text-color) !important;
@@ -917,5 +917,5 @@ color: var(--green-3) !important;
   transform: rotateY(180deg);
   border-radius: 10px;
   border: 3px var(--green1) solid;
-  box-shadow: 0 4px 4px 5px var(--green-2) !important;
+  box-shadow: 0 4px 4px 5px var(--green-2) ;
 }
