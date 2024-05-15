@@ -484,35 +484,35 @@ color: var(--green-3) !important;
 /* --------=-----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .project-section {
-  position: relative !important;
-  padding-top: 100px !important;
-  padding-bottom: 30px !important;
+  position: relative ;
+  padding-top: 100px ;
+  padding-bottom: 30px ;
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
+  padding-top: 50px ;
+  padding-bottom: 50px ;
+  padding-left: 25px ;
+  padding-right: 25px ;
+  height: auto;
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px var(--green-0) !important;
-  color: var(--text-color) !important;
-  background-color: transparent !important;
+  box-shadow: 0 4px 5px 3px var(--green-0) ;
+  color: var(--text-color) ;
+  background-color: transparent ;
   backdrop-filter: blur(10px);
   opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.5s ease 0s;
   display: flex;
   flex-direction: column;
-  height: 100% !important;
+  height: 100% ;
 }
 .project-card-view:hover {
-  transform: scale(1.01) translate(-10px, -20px) !important;
-  overflow: hidden !important;
-  backdrop-filter: blur(0px) !important; 
-  box-shadow: 0 4px 4px 5px var(--green-1) !important;
+  transform: scale(1.01) translate(-10px, -20px);
+  overflow: hidden ;
+  backdrop-filter: blur(0px) ; 
+  box-shadow: 0 4px 4px 5px var(--green-1) ;
 }
 .project-card-img{
   width: auto;
