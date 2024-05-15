@@ -62,7 +62,7 @@ function HomeSocial() {
                 <li className="home-social-icons">
                   <a
                     className="footer-social-icons"
-                    href="#"
+                    href="gmailto:veera.palla919@gmail.com"
                     onClick={handleOpenGmail}
                   >
                     <AiFillMail />
