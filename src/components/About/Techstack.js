@@ -29,65 +29,38 @@ import {
 import { FaJava } from 'react-icons/fa';
 
 function Techstack() {
-  const toolNameMap = {
-    SiCplusplus: 'C++',
-    SiCsharp: 'C#',
-    DiPython: 'Python',
-    FaJava: 'Java',
-    DiJavascript1: 'JavaScript',
-    DiNodejs: 'Node.js',
-    DiReact: 'React',
-    SiScikitlearn: 'Scikit-learn',
-    SiPytorch: 'PyTorch',
-    DiSpark: 'Spark',
-    DiRust: 'Rust',
-    SiGnubash: 'Bash',
-    SiHtml5: 'HTML',
-    SiDjango: 'Django',
-    SiSpring: 'Spring',
-    SiSpringboot: 'Springboot',
-    SiExpress: 'Express',
-    SiFlask: 'Flask',
-    SiCss3: 'CSS',
-    SiRedux: 'Redux',
-    SiWebpack: 'Webpack',
-    SiBabel: 'Babel',
-    SiBootstrap: 'Bootstrap',
-  };
-
+  const techStack = [
+    { icon: <SiCplusplus />, name: 'C++' },
+    { icon: <SiCsharp />, name: 'C#' },
+    { icon: <DiPython />, name: 'Python' },
+    { icon: <FaJava />, name: 'Java' },
+    { icon: <DiJavascript1 />, name: 'JavaScript' },
+    { icon: <SiHtml5 />, name: 'HTML' },
+    { icon: <SiCss3 />, name: 'CSS' },
+    { icon: <SiBootstrap />, name: 'Bootstrap' },
+    { icon: <DiNodejs />, name: 'Node.js' },
+    { icon: <DiReact />, name: 'React' },
+    { icon: <SiRedux />, name: 'Redux' },
+    { icon: <SiExpress />, name: 'Express' },
+    { icon: <SiDjango />, name: 'Django' },
+    { icon: <SiFlask />, name: 'Flask' },
+    { icon: <SiSpring />, name: 'Spring' },
+    { icon: <SiSpringboot />, name: 'Spring Boot' },
+    { icon: <SiScikitlearn />, name: 'Scikit-learn' },
+    { icon: <SiPytorch />, name: 'PyTorch' },
+    { icon: <DiSpark />, name: 'Spark' },
+    { icon: <DiRust />, name: 'Rust' },
+    { icon: <SiGnubash />, name: 'Bash' },
+    { icon: <SiWebpack />, name: 'Webpack' },
+    { icon: <SiBabel />, name: 'Babel' },
+  ];
   return (
     <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-      {[
-        <SiCplusplus />,
-        <SiCsharp />,
-        <DiPython />,
-        <FaJava />,
-        <DiJavascript1 />,
-        <SiHtml5 />,
-        <SiCss3 />,
-        <SiBootstrap />,
-        <DiNodejs />,
-        <DiReact />,
-        <SiRedux />,
-        <SiExpress />,
-        <SiDjango />,
-        <SiFlask />,
-        <SiSpring />,
-        <SiSpringboot />,
-        <SiScikitlearn />,
-        <SiPytorch />,
-        <DiSpark />,
-        <DiRust />,
-        <SiGnubash />,
-        <SiWebpack />,
-        <SiBabel />,
-      ].map((tool, index) => (
+      {techStack.map((tech, index) => (
         <Col xs={4} md={2} className="tech-icons" key={index}>
-          <div className="icon-images">{tool}</div>
-          <div className="tech-icon-hover-info hover">
-            <span>
-              {toolNameMap[tool.type.displayName || tool.type.name]}
-            </span>
+          <div className="icon-images">{tech.icon}</div>
+          <div className="tech-icon-hover-info">
+            <span>{tech.name}</span>
           </div>
         </Col>
       ))}
