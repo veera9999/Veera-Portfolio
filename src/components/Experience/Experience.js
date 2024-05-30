@@ -74,7 +74,7 @@ function Experience() {
           >
             <div className="main-experience">
               <h3 className="vertical-timeline-element-title">
-                Software Engineer Intern
+                Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Sein Technologies, Chennai, India

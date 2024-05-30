@@ -51,8 +51,8 @@ function Home() {
       </Container>
       <HomeSocial />
       <About />
-      <Projects />
       <Experience />
+      <Projects />
       <Contact />
     </section>
   );
