@@ -55,6 +55,163 @@ function Experience() {
                 dark ? '#0ad0f3' : '#0ad0f3'
               }`,
             }}
+            date="January 2024 – May 2024"
+            iconStyle={{
+              background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              color: '#ffffff',
+              display: 'flex',
+              alignItems: 'center',
+              paddingTop: '10px',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={
+              <span>
+                <MdOutlineDeveloperMode />
+              </span>
+            }
+          >
+            <div className="main-experience">
+              <h3 className="vertical-timeline-element-title">
+                Software Developer (Apprenticeship)
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Luminari CRO, Remote, USA
+              </h4>
+            </div>
+            <span></span>
+            <hr />
+            <div className="experience-description">
+              <p>
+                <FaJava
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                {''} Fine-tuned the LLama2 model using transformers
+                and LangChain, enhancing its performance and accuracy
+                with specific datasets.
+              </p>
+              <p>
+                <SiSwagger
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />
+                {'  '} Developed a responsive website with Python,
+                Django and React, integrating the LLama2 model to
+                provide dynamic functionality.
+              </p>
+              <p>
+                <SiSpringsecurity
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Utilized AWS SageMaker for efficient model training
+                and deployment, ensuring scalable and reliable
+                performance.
+              </p>
+
+              <p>
+                <SiAmazonaws
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Managed datasets using AWS S3, ensuring secure and
+                organized storage for seamless data access and
+                management.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work experience-card"
+            contentStyle={{
+              background: 'inherit',
+              color: dark ? '#0ad0f3' : '#6002ad',
+              border: `3px solid ${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
+            }}
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#0ad0f3' : '#0ad0f3'
+              }`,
+            }}
+            date="January 2023 – June 2023"
+            iconStyle={{
+              background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              color: '#ffffff',
+              display: 'flex',
+              alignItems: 'center',
+              paddingTop: '10px',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={
+              <span>
+                <MdOutlineDeveloperMode />
+              </span>
+            }
+          >
+            <div className="main-experience">
+              <h3 className="vertical-timeline-element-title">
+                Graduate Student Aide <br />
+                (Software Developer)
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Discovery Partner's Institute, Chicago, USA
+              </h4>
+            </div>
+            <span></span>
+            <hr />
+            <div className="experience-description">
+              <p>
+                <FaJava
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                {''} Designed & developed Learning Management System
+                (LMS) website for students, ensuring usability and
+                inclusivity.
+              </p>
+              <p>
+                <SiSwagger
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />
+                {'  '} Implemented front-end using React to create an
+                intuitive and responsive user interface, providing a
+                seamless user experience.
+              </p>
+              <p>
+                <SiSpringsecurity
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Engineered back-end with Java and Spring to manage
+                data efficiently and ensure robust performance and
+                scalability.
+              </p>
+
+              <p>
+                <SiAmazonaws
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Collaborated with diverse team to integrate
+                accessibility features, enhancing the educational
+                experience for all users.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work experience-card"
+            contentStyle={{
+              background: 'inherit',
+              color: dark ? '#0ad0f3' : '#6002ad',
+              border: `3px solid ${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
+            }}
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#0ad0f3' : '#0ad0f3'
+              }`,
+            }}
             date="August 2021 – July 2022"
             iconStyle={{
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
@@ -147,7 +304,7 @@ function Experience() {
                 dark ? '#0ad0f3' : '#0ad0f3'
               }`,
             }}
-            date="August 2020 – July 2021"
+            date="September 2020 – July 2021"
             iconStyle={{
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
               color: '#ffffff',
