@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import resumeFile from './resume.pdf';
+import resumeFile from './Veera_resume_Dev.pdf';
 import { AiFillGithub, AiFillMail } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 

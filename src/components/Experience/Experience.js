@@ -55,7 +55,7 @@ function Experience() {
                 dark ? '#0ad0f3' : '#0ad0f3'
               }`,
             }}
-            date="September 2021 – July 2022"
+            date="August 2021 – July 2022"
             iconStyle={{
               background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
               color: '#ffffff',
