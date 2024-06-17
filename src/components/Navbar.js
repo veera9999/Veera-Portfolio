@@ -98,6 +98,18 @@ function NavBar() {
               Education
             </Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link
+              as={Link}
+              to="#"
+              onClick={() => scrollToSection('experience')}
+            >
+              <MdWorkHistory style={{ marginBottom: '3px' }} />{' '}
+              {description.Experience}
+            </Nav.Link>
+          </Nav.Item>
+
           <Nav.Item>
             <Nav.Link
               as={Link}
@@ -110,16 +122,7 @@ function NavBar() {
               {description.Projects}
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link
-              as={Link}
-              to="#"
-              onClick={() => scrollToSection('experience')}
-            >
-              <MdWorkHistory style={{ marginBottom: '3px' }} />{' '}
-              {description.Experience}
-            </Nav.Link>
-          </Nav.Item>
+
           <Nav.Item>
             <Nav.Link
               as={Link}
@@ -130,7 +133,6 @@ function NavBar() {
               {description.Contact}
             </Nav.Link>
           </Nav.Item>
-          
         </Nav>
       </Navbar.Collapse>
 
