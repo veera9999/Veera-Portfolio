@@ -8,6 +8,7 @@ import portfolio from '../../assets/Projects/portfolio.png';
 import hms from '../../assets/Projects/HMS.jpg';
 import Skywest from '../../assets/Projects/Skywest.jpg';
 import bestbuy from '../../assets/Projects/BestBuy.jpg';
+import TaskNinja from '../../assets/Projects/TaskNinja.png';
 import descriptions from '../description';
 
 function Projects() {
@@ -30,6 +31,14 @@ function Projects() {
               title="SyncVibe"
               description={descriptions.Proj1}
               link="https://github.com/veera9999/REACT-DJANGO"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TaskNinja}
+              title="Task Ninja"
+              description={descriptions.Proj7}
+              link="https://project-management-tool-e76n.onrender.com/"
             />
           </Col>
           <Col md={4} className="project-card">

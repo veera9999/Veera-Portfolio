@@ -74,7 +74,7 @@ function Experience() {
           >
             <div className="main-experience">
               <h3 className="vertical-timeline-element-title">
-                Software Developer (Apprenticeship)
+                Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Luminari CRO, Remote, USA
@@ -152,8 +152,7 @@ function Experience() {
           >
             <div className="main-experience">
               <h3 className="vertical-timeline-element-title">
-                Graduate Student Aide <br />
-                (Software Developer)
+                Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
                 Discovery Partner's Institute, Chicago, USA
