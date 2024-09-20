@@ -49,6 +49,8 @@ const description = {
     'An e-commerce website built with Java Spring MVC, Maven,JPA and Spring Security, featuring inventory management system, efficient data handling and  storage, a responsive Bootstrap front-end, and is deployed on AWS EC2',
   Proj7:
     'A simple project management tool built with MERN stack and secure user authentication with JWT, and axios for efficient data fetching with RESTful API and hosted on Render.com',
+  Proj8:
+    'A simple book search app accessing public book info api with axios built with react, redux and typescript. Implemented auto-complete functionality for the search bar component.',
   ThisWebsite: 'This website',
   ContactHeader: 'Get in',
 };

@@ -9,6 +9,7 @@ import hms from '../../assets/Projects/HMS.jpg';
 import Skywest from '../../assets/Projects/Skywest.jpg';
 import bestbuy from '../../assets/Projects/BestBuy.jpg';
 import TaskNinja from '../../assets/Projects/TaskNinja.png';
+import bksapp from '../../assets/Projects/bksapp.png';
 import descriptions from '../description';
 
 function Projects() {
@@ -39,6 +40,14 @@ function Projects() {
               title="Task Ninja"
               description={descriptions.Proj7}
               link="https://project-management-tool-e76n.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bksapp}
+              title="Book Search App"
+              description={descriptions.Proj8}
+              link="https://veera9999.github.io/Book-Search-App--Typescript/"
             />
           </Col>
           <Col md={4} className="project-card">
