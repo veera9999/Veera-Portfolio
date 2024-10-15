@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Veera-Portfolio/static/css/main.f8ae36a7.css",
-    "main.js": "/Veera-Portfolio/static/js/main.74316a87.js",
+    "main.js": "/Veera-Portfolio/static/js/main.d3f4b936.js",
     "static/js/453.ace21015.chunk.js": "/Veera-Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/SyncVibe.png": "/Veera-Portfolio/static/media/SyncVibe.d20fba83d1a6da828171.png",
     "static/media/TaskNinja.png": "/Veera-Portfolio/static/media/TaskNinja.666e13b9d91e1bc9d701.png",
@@ -52,11 +52,11 @@
     "static/media/js-icon.svg": "/Veera-Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
     "static/media/oracle.svg": "/Veera-Portfolio/static/media/oracle.58d32dae99d3cfb0bf13d40e39f94d9a.svg",
     "main.f8ae36a7.css.map": "/Veera-Portfolio/static/css/main.f8ae36a7.css.map",
-    "main.74316a87.js.map": "/Veera-Portfolio/static/js/main.74316a87.js.map",
+    "main.d3f4b936.js.map": "/Veera-Portfolio/static/js/main.d3f4b936.js.map",
     "453.ace21015.chunk.js.map": "/Veera-Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8ae36a7.css",
-    "static/js/main.74316a87.js"
+    "static/js/main.d3f4b936.js"
   ]
 }
