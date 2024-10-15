@@ -152,6 +152,92 @@ function Experience() {
           >
             <div className="main-experience">
               <h3 className="vertical-timeline-element-title">
+                Data Analyst
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Compass Groups, Chicago, USA
+              </h4>
+            </div>
+            <span></span>
+            <hr />
+            <div className="experience-description">
+              <p>
+                <SiMicrosoftexcel
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Utilized Power BI and SQL to analyze sales data and
+                forecast demand, improving forecast accuracy by 12%
+                and optimizing inventory levels across 20+ stores.
+              </p>
+              <p>
+                <HiDocumentReport
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Collaborated with the logistics team to implement
+                route optimization software, reducing transportation
+                costs by 10% and improving delivery efficiency.
+              </p>
+              <p>
+                <SiPython
+                  hCheckFill
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Developed and automated sales and inventory reports
+                using Python and SQL, streamlining data processing and
+                reducing manual work by 30%.
+              </p>
+              <p>
+                <SiTableau
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Created real-time dashboards in Power BI for
+                monitoring sales trends and stock levels, reducing
+                stockouts by 15% and improving product availability.
+              </p>
+              <p>
+                <GiArtificialIntelligence
+                  style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
+                />{' '}
+                Integrated warehouse management systems (WMS) to
+                ensure timely restocking of stores, reducing
+                perishable product waste by 8%.
+              </p>
+            </div>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work experience-card"
+            contentStyle={{
+              background: 'inherit',
+              color: dark ? '#0ad0f3' : '#6002ad',
+              border: `3px solid ${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              borderRadius: '20px',
+              padding: '1rem',
+              paddingTop: '1em',
+            }}
+            contentArrowStyle={{
+              borderRight: `15px solid ${
+                dark ? '#0ad0f3' : '#0ad0f3'
+              }`,
+            }}
+            date="January 2023 – June 2023"
+            iconStyle={{
+              background: `${dark ? '#0ad0f3' : '#0ad0f3'}`,
+              color: '#ffffff',
+              display: 'flex',
+              alignItems: 'center',
+              paddingTop: '10px',
+              justifyContent: 'center',
+              fontSize: '2rem',
+              fontWeight: 'bold',
+            }}
+            icon={
+              <span>
+                <MdOutlineDeveloperMode />
+              </span>
+            }
+          >
+            <div className="main-experience">
+              <h3 className="vertical-timeline-element-title">
                 Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
@@ -233,7 +319,7 @@ function Experience() {
                 Software Developer
               </h3>
               <h4 className="vertical-timeline-element-subtitle">
-                Sein Technologies, Chennai, India
+                Digilance, Maharashtra, India
               </h4>
             </div>
             <span></span>

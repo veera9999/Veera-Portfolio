@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Github from './Github';
 import Techstack from './Techstack';
 import Aboutcard from './AboutCard';
-/*import about from '../../assets/about.svg';*/
 import about5 from '../../assets/about5.svg';
 import Toolstack from './Toolstack';
 import description from '../description';
