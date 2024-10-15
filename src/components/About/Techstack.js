@@ -31,7 +31,6 @@ import { FaJava } from 'react-icons/fa';
 function Techstack() {
   const techStack = [
     { icon: <SiCplusplus />, name: 'C++' },
-    { icon: <SiCsharp />, name: 'C#' },
     { icon: <DiPython />, name: 'Python' },
     { icon: <FaJava />, name: 'Java' },
     { icon: <DiJavascript1 />, name: 'JavaScript' },
@@ -43,13 +42,10 @@ function Techstack() {
     { icon: <SiRedux />, name: 'Redux' },
     { icon: <SiExpress />, name: 'Express' },
     { icon: <SiDjango />, name: 'Django' },
-    { icon: <SiFlask />, name: 'Flask' },
     { icon: <SiSpring />, name: 'Spring' },
     { icon: <SiSpringboot />, name: 'Spring Boot' },
-    { icon: <SiScikitlearn />, name: 'Scikit-learn' },
     { icon: <SiPytorch />, name: 'PyTorch' },
     { icon: <DiSpark />, name: 'Spark' },
-    { icon: <DiRust />, name: 'Rust' },
     { icon: <SiGnubash />, name: 'Bash' },
     { icon: <SiWebpack />, name: 'Webpack' },
     { icon: <SiBabel />, name: 'Babel' },
