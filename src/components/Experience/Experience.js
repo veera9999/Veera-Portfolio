@@ -267,9 +267,10 @@ function Experience() {
                 <SiSpringsecurity
                   style={{ color: dark ? '#00d9ffe1' : '#e27720' }}
                 />{' '}
-                Engineered back-end with Java and Spring to manage
-                data efficiently and ensure robust performance and
-                scalability.
+                Built efficient backend APIs with Node.js and Express,
+                managing large datasets and integrating MongoDB for
+                secure data storage and seamless user-course data
+                management.
               </p>
 
               <p>
@@ -339,7 +340,7 @@ function Experience() {
                 />
                 {'  '}
                 Tested applications for end-to-end test cases with
-                JUnit and Swagger and resolved over 100 bugs.
+                JUnit, mockito and resolved over 100 bugs.
               </p>
               <p>
                 <SiSpringsecurity
